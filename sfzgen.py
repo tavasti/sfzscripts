@@ -5,7 +5,7 @@ import os
 import math
 import argparse
 
-def GetNote(str):
+def GetNote(str, file):
     if(str.startswith('c1')):
         return 24
     if(str.startswith('cs1')):
@@ -175,48 +175,33 @@ def GetNote(str):
     if(str.startswith('b7')):
         return 107
     
-    print("***** No note value for {}",format(str))
+    print("***** No note value for string {} in file {}".format(str,file))
     sys.exit(1)
     return 1
 
 parser = argparse.ArgumentParser(description="Output sfz file sample regions for selected files")
-parser.add_argument('prefix', type=str,nargs=1,help='select files matching prefix')
-parser.add_argument('--line','-l',type=str,nargs=1,help='string to add each sample line',default=[''])
-parser.add_argument('--path','-p',type=str,nargs=1,help='Path added front of sample',default='.')
-parser.add_argument('--exclude','-e',type=str,metavar='str',nargs=1,help='Exclude matching files',default=[''])
+parser.add_argument('file', type=str,nargs='+',help='Sample files')
+parser.add_argument('-n','--noteloc', type=int, help='Note value location')
+parser.add_argument('--line','-l',type=str,nargs=1,help='string to add each sample line')
 args = parser.parse_args()
-
-prefix=args.prefix[0]
-dir=args.path[0]
-#calculate velocity groups
-vgroups=1
-vind=len(prefix)
 samples = []
-# collect sample files
-for (dirpath,dirnames,filenames) in os.walk('.'):
-    for f in filenames:
-        if (f.startswith(prefix)):
-            if(args.exclude[0] == '' or
-               (not args.exclude[0] in f)):
-                note = GetNote(f[vind+1:vind+4])
-                samples.append( dict(file = f,
-                                vel = int(f[vind]),
-                                note = note))
-                if (vgroups < int(f[vind])):
-                    vgroups = int(f[vind])
+# collect sample files to list
+for f in args.file:
+    note = GetNote(f[args.noteloc:args.noteloc+4],f)
+    samples.append( dict(file = f,
+                            note = note))
                       
 # generate
-for vel in range(1,vgroups+1):
-    for note in range(1,127):
-        cs = []
-        # collect valid samples
-        for c in samples:
-            if (c['note'] <= note+2 and c['note'] >= note-2 and c['vel'] == vel):
-                cs.append(c)
-        seq=1
-        for s in cs:
-            print("<region> sample={dir}\{file} lokey={note} hikey={note} pitch_keycenter={orgnote} lovel={lovel} hivel={hivel} seq_length={seqlen} seq_position={seq} {line}".format(dir=dir,file=s['file'],note=note,orgnote=s['note'],lovel=math.ceil((vel-1)*127/vgroups),hivel=math.floor((vel)*127/vgroups),seq=seq,seqlen=len(cs),line=args.line[0]))
-            seq += 1
+for note in range(1,127):
+    cs = []
+    # collect valid samples
+    for c in samples:
+        if (c['note'] <= note+2 and c['note'] >= note-2):
+            cs.append(c)
+    seq=1
+    for s in cs:
+        print("<region> sample={file} lokey={note} hikey={note} pitch_keycenter={orgnote} seq_length={seqlen} seq_position={seq} {line}".format(file=s['file'],note=note,orgnote=s['note'],seq=seq,seqlen=len(cs),line=args.line[0]))
+        seq += 1
 
 
 
