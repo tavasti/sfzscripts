@@ -1,0 +1,529 @@
+// Contra Bass Tremolo Mod
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+<region> sample=ContraBass/bsto1s1-e1-2-e1.wav lokey=26 hikey=26 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-e1.wav lokey=27 hikey=27 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-e1.wav lokey=28 hikey=28 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-f#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-e1.wav lokey=29 hikey=29 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-f#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-2-g1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-e1.wav lokey=30 hikey=30 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-f#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-2-g1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-a1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-f#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-2-g1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-a1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-f#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-2-g1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-a1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-2-g1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-a1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-1-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-a1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-1-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-1-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-1-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-f2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-f2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-f2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-f2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-g#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-f2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-g#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-g#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-g#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-g#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2c#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2c#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2c#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2c#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2c#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto2s1-e1-2-e1.wav lokey=26 hikey=26 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-e1.wav lokey=27 hikey=27 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-e1.wav lokey=28 hikey=28 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-f#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-e1.wav lokey=29 hikey=29 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-f#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-g1-1-g1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-e1.wav lokey=30 hikey=30 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-f#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-g1-1-g1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-a1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-a1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-f#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-g1-1-g1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-a1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-a1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-as1-2-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-f#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-g1-1-g1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-a1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-a1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-as1-2-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-g1-1-g1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-b1.wav lokey=33 hikey=33 pitch_keycenter=35 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-a1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-a1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-as1-2-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-b1.wav lokey=34 hikey=34 pitch_keycenter=35 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-a1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-a1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-as1-2-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-b1.wav lokey=35 hikey=35 pitch_keycenter=35 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-as1-2-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-b1.wav lokey=36 hikey=36 pitch_keycenter=35 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-d2.wav lokey=36 hikey=36 pitch_keycenter=38 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-b1.wav lokey=37 hikey=37 pitch_keycenter=35 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-d2.wav lokey=37 hikey=37 pitch_keycenter=38 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-d2.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-d2.wav lokey=39 hikey=39 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-f2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-d2.wav lokey=40 hikey=40 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-f2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-f2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-f2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1g#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-g#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-f2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1g#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-g#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1g#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-g#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1g#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-g#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1g#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-g#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-d3-2-d3.wav lokey=48 hikey=48 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-d3-2-d3.wav lokey=49 hikey=49 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-d3-2-d3.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-d3-2-d3.wav lokey=51 hikey=51 pitch_keycenter=50 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-d3-2-d3.wav lokey=52 hikey=52 pitch_keycenter=50 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto3s1-e1-2-e1.wav lokey=26 hikey=26 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-e1-2-e1.wav lokey=27 hikey=27 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-e1-2-e1.wav lokey=28 hikey=28 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-f#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-e1-2-e1.wav lokey=29 hikey=29 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-f#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-g1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-e1-2-e1.wav lokey=30 hikey=30 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-f#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-g1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-a1-1-a1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-f#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-g1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-a1-1-a1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-f#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-g1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-a1-1-a1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-g1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-b1.wav lokey=33 hikey=33 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-a1-1-a1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-b1.wav lokey=34 hikey=34 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-a1-1-a1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-b1.wav lokey=35 hikey=35 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-b1.wav lokey=36 hikey=36 pitch_keycenter=35 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-d2.wav lokey=36 hikey=36 pitch_keycenter=38 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-b1.wav lokey=37 hikey=37 pitch_keycenter=35 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-d2.wav lokey=37 hikey=37 pitch_keycenter=38 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-d2.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-d2.wav lokey=39 hikey=39 pitch_keycenter=38 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-f2-2-f2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-f2-2-f2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-d2.wav lokey=40 hikey=40 pitch_keycenter=38 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-f2-2-f2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-f2-2-f2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-f2-2-f2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-f2-2-f2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-f2-2-f2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-f2-2-f2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-g#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-f2-2-f2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-f2-2-f2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-g#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-g#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-g#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-g#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-d3.wav lokey=48 hikey=48 pitch_keycenter=50 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-d3.wav lokey=49 hikey=49 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-d3.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-d3.wav lokey=51 hikey=51 pitch_keycenter=50 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-d3.wav lokey=52 hikey=52 pitch_keycenter=50 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-c4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-c4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-c4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-c4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-c4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto1s1-e1-2-Rele1.wav lokey=26 hikey=26 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-Rele1.wav lokey=27 hikey=27 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-Rele1.wav lokey=28 hikey=28 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-Relf#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-Rele1.wav lokey=29 hikey=29 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-Relf#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-1-Relg1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-e1-2-Rele1.wav lokey=30 hikey=30 pitch_keycenter=28 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-Relf#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-1-Relg1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-Rela1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-Relf#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-1-Relg1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-Rela1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-fs1-2-Relf#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-1-Relg1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-Rela1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-g1-1-Relg1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-Rela1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-a1-1-Rela1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-Rela#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-as1-2-Rela#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s1-c2-2-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-Relf2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-Relf2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s2-ds2-1-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-Relf2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-Relf2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-Relg#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-f2-1-Relf2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-Relg#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-g2-2-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-Relg#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s3-gs2-2-Relg#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2Relc#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as2-1-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-c3-2-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2Relc#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-cs3-2Relc#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-e3-2Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-a3-1-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto1s4-as3-2Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60
+<region> sample=ContraBass/bsto2s1-e1-2-Rele1.wav lokey=26 hikey=26 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-Rele1.wav lokey=27 hikey=27 pitch_keycenter=28 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-Rele1.wav lokey=28 hikey=28 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-Relf#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-Rele1.wav lokey=29 hikey=29 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-Relf#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-e1-2-Rele1.wav lokey=30 hikey=30 pitch_keycenter=28 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-Relf#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-Rela1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-Rela1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-Relf#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-Rela1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-Rela1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-fs1-2-Relf#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-Rela1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-Rela1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-Relb1.wav lokey=33 hikey=33 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-Rela1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-Rela1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-Relb1.wav lokey=34 hikey=34 pitch_keycenter=35 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-1-Rela1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s1-a1-2-Rela1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-Relb1.wav lokey=35 hikey=35 pitch_keycenter=35 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-Relb1.wav lokey=36 hikey=36 pitch_keycenter=35 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-Reld2.wav lokey=36 hikey=36 pitch_keycenter=38 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-b1-2-Relb1.wav lokey=37 hikey=37 pitch_keycenter=35 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-Reld2.wav lokey=37 hikey=37 pitch_keycenter=38 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-c2-1-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-Reld2.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-Reld2.wav lokey=39 hikey=39 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-Relf2.wav lokey=39 hikey=39 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s2-d2-1-Reld2.wav lokey=40 hikey=40 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-Relf2.wav lokey=40 hikey=40 pitch_keycenter=41 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-Relf2.wav lokey=41 hikey=41 pitch_keycenter=41 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-Relf2.wav lokey=42 hikey=42 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1Relg#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-Relg#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-f2-1-Relf2.wav lokey=43 hikey=43 pitch_keycenter=41 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1Relg#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-Relg#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1Relg#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-Relg#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-1Relg#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s3-gs2-2-Relg#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1Reld3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1Reld3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1Reld3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1Reld3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-c3-1Reld3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-e3-2-Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-g3-2Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto2s4-as3-2Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87
+<region> sample=ContraBass/bsto3s1-fs1-1-Relf#1.wav lokey=28 hikey=28 pitch_keycenter=30 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-Relf#1.wav lokey=29 hikey=29 pitch_keycenter=30 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-1-Relg1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-Relg1.wav lokey=29 hikey=29 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-Relf#1.wav lokey=30 hikey=30 pitch_keycenter=30 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-1-Relg1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-Relg1.wav lokey=30 hikey=30 pitch_keycenter=31 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-Relf#1.wav lokey=31 hikey=31 pitch_keycenter=30 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-1-Relg1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-Relg1.wav lokey=31 hikey=31 pitch_keycenter=31 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-a1-1-Rela1.wav lokey=31 hikey=31 pitch_keycenter=33 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-fs1-1-Relf#1.wav lokey=32 hikey=32 pitch_keycenter=30 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-1-Relg1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-Relg1.wav lokey=32 hikey=32 pitch_keycenter=31 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-a1-1-Rela1.wav lokey=32 hikey=32 pitch_keycenter=33 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-1-Relg1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-g1-2-Relg1.wav lokey=33 hikey=33 pitch_keycenter=31 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-a1-1-Rela1.wav lokey=33 hikey=33 pitch_keycenter=33 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-Relb1.wav lokey=33 hikey=33 pitch_keycenter=35 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-a1-1-Rela1.wav lokey=34 hikey=34 pitch_keycenter=33 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-Relb1.wav lokey=34 hikey=34 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-a1-1-Rela1.wav lokey=35 hikey=35 pitch_keycenter=33 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-Relb1.wav lokey=35 hikey=35 pitch_keycenter=35 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-Relb1.wav lokey=36 hikey=36 pitch_keycenter=35 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-Reld2.wav lokey=36 hikey=36 pitch_keycenter=38 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-b1-1-Relb1.wav lokey=37 hikey=37 pitch_keycenter=35 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-Reld2.wav lokey=37 hikey=37 pitch_keycenter=38 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s1-c2-1-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-Reld2.wav lokey=38 hikey=38 pitch_keycenter=38 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-Reld2.wav lokey=39 hikey=39 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-d2-2-Reld2.wav lokey=40 hikey=40 pitch_keycenter=38 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s2-ds2-2-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-Relg#2.wav lokey=42 hikey=42 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-Relg#2.wav lokey=43 hikey=43 pitch_keycenter=44 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-1-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-g2-2-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-Relg#2.wav lokey=45 hikey=45 pitch_keycenter=44 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-gs2-1-Relg#2.wav lokey=46 hikey=46 pitch_keycenter=44 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s3-as2-1-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-Reld3.wav lokey=48 hikey=48 pitch_keycenter=50 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-Reld3.wav lokey=49 hikey=49 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c3-2-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-Reld3.wav lokey=51 hikey=51 pitch_keycenter=50 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-d3-1-Reld3.wav lokey=52 hikey=52 pitch_keycenter=50 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-Relf#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-Relf#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-Relf#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-Relf#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-fs3-1-Relf#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-g3-1-Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-Relc4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-a3-2-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-Relc4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
+<region> sample=ContraBass/bsto3s4-c4-2-Relc4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88
