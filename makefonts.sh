@@ -712,15 +712,15 @@ ampeg_release_oncc72=10
 ampeg_decay=0.005
 EOF
 
-sfzgen.py -n 11 $(ls Violin/v1ltf1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=46" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf2* | grep -v Rel) -l "volume=0 tune=0 lovel=47 hivel=80" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf3* | grep -v Rel) -l "volume=0 tune=0 lovel=81 hivel=109" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf4* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=46" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf2* | grep -v Rel) -l "volume=0 tune=0 lovel=47 hivel=80" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf3* | grep -v Rel) -l "volume=0 tune=0 lovel=81 hivel=109" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf4* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
 
-sfzgen.py -n 11 $(ls Violin/v1ltf1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=46" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=47 hivel=80" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=81 hivel=109" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf4* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=46" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=47 hivel=80" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=81 hivel=109" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf4* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
 
 ###  --------- ###
 NAME="Violin Sustained Mod"
@@ -743,12 +743,120 @@ ampeg_release_oncc72=10
 ampeg_decay=0.005
 EOF
 
-sfzgen.py -n 11 $(ls Violin/v1ltf1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=31 fout_hicc1=46" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=32 xfin_hicc1=47 xfout_locc1=65 xfout_hicc1=80" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf4* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=31 fout_hicc1=46" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=32 xfin_hicc1=47 xfout_locc1=65 xfout_hicc1=80" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf4* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
 
-sfzgen.py -n 11 $(ls Violin/v1ltf1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=31 fout_hicc1=46" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=32 xfin_hicc1=47 xfout_locc1=65 xfout_hicc1=80" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
-sfzgen.py -n 11 $(ls Violin/v1ltf4* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=31 fout_hicc1=46" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=32 xfin_hicc1=47 xfout_locc1=65 xfout_hicc1=80" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 13 $(ls Violin/v1ltf4* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
+############################################################
+NAME="Violin Tremolo"
+FILE=Violin_Tremolo.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 $(ls Violin/vl1t1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t2* | grep -v Rel) -l "volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t3* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+sfzgen.py -n 12 $(ls Violin/vl1t1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Violin Tremolo Mod"
+FILE=Violin_Tremolo_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 $(ls Violin/vl1t1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=43 fout_hicc1=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 12 $(ls Violin/vl1t3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
+############################################################
+NAME="Violin Trem Sul Ponticello"
+FILE=Violin_Tremolo_Sul_Ponticello.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 $(ls Violin/v1tp1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/v1tp1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep -v Rel) -l "volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Violin Trem Sul Ponticello Mod"
+FILE=Violin_Trem_Sul_Ponticello_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 $(ls Violin/v1tp1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=43 fout_hicc1=58" >> $FILE
+sfzgen.py -n 12 $(ls Violin/v1tp1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE

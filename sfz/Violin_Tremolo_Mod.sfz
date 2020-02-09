@@ -1,0 +1,874 @@
+// Violin Tremolo Mod
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+<region> sample=Violin/vl1t1g3-s1-3G3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3G3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2G#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3G3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2G#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2A#3t.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3G3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2G#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2A#3t.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1B3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3G3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2G#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2A#3t.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1B3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2G#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2A#3t.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1B3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2A#3t.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1B3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2D4.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1B3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2D4.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2D#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2D4.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2D#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2D4.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2D#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2F4.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2D4.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2D#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2F4.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2F#4.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2D#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2F4.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2F#4.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2F4.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2F#4.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2G#4.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1A4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2F4.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2F#4.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2G#4.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1A4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2A#4.wav lokey=68 hikey=68 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2F#4.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2G#4.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1A4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2A#4.wav lokey=69 hikey=69 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1B4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2G#4.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1A4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2A#4.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1B4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1C5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2G#4.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=5 seq_position=5 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1A4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2A#4.wav lokey=71 hikey=71 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1B4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1C5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1C#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=5 seq_position=5 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2A#4.wav lokey=72 hikey=72 pitch_keycenter=70 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1B4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1C5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1C#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1B4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1C5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1C#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2D#5.wav lokey=73 hikey=73 pitch_keycenter=75 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1C5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1C#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2D#5.wav lokey=74 hikey=74 pitch_keycenter=75 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1E5t.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1C#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2D#5.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1E5t.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2D#5.wav lokey=76 hikey=76 pitch_keycenter=75 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1E5t.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s4-2F#5t.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2D#5.wav lokey=77 hikey=77 pitch_keycenter=75 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1E5t.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s4-2F#5t.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2G5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1E5t.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s4-2F#5t.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2G5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3A5.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s4-2F#5t.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2G5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3A5.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1A#5t.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s4-2F#5t.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2G5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3A5.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1A#5t.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2G5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3A5.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1A#5t.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1C6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3A5.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1A#5t.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1C6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1C#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1A#5t.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1C6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1C#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1C6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1C#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1D#6t.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1C6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1C#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1D#6t.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1E6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1C#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1D#6t.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1E6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1D#6t.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1E6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2F#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1D#6t.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1E6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2F#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2G6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1E6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2F#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2G6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2A6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2F#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2G6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2A6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3A#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2F#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2G6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2A6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3A#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2G6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2A6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3A#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1C7t.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2A6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3A#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1C7t.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3A#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1C7t.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1C7t.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1C7t.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3RelG3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3RelG3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2RelG#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3RelG3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2RelG#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2RelA#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3RelG3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2RelG#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2RelA#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1RelB3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g3-s1-3RelG3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2RelG#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2RelA#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1RelB3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs3-s1-2RelG#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2RelA#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1RelB3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as3-s1-2RelA#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1RelB3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2RelD4.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b3-s1-1RelB3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2RelD4.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2RelD#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2RelD4.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2RelD#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2RelD4.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2RelD#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2RelF4.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1d4-s1-2RelD4.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2RelD#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2RelF4.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2RelF#4.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds4-s2-2RelD#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2RelF4.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2RelF#4.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2RelF4.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2RelF#4.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2RelG#4.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1RelA4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1f4-s2-2RelF4.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2RelF#4.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2RelG#4.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1RelA4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2RelA#4.wav lokey=68 hikey=68 pitch_keycenter=70 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs4-s2-2RelF#4.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2RelG#4.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1RelA4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2RelA#4.wav lokey=69 hikey=69 pitch_keycenter=70 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1RelB4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2RelG#4.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1RelA4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=5 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2RelA#4.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=5 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1RelB4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=5 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1RelC5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=5 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1gs4-s2-2RelG#4.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=5 seq_position=5 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a4-s2-1RelA4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=5 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2RelA#4.wav lokey=71 hikey=71 pitch_keycenter=70 seq_length=5 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1RelB4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=5 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1RelC5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=5 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1RelC#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=5 seq_position=5 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as4-s3-2RelA#4.wav lokey=72 hikey=72 pitch_keycenter=70 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1RelB4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1RelC5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1RelC#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1b4-s2-1RelB4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1RelC5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1RelC#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2RelD#5.wav lokey=73 hikey=73 pitch_keycenter=75 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c5-s3-1RelC5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1RelC#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2RelD#5.wav lokey=74 hikey=74 pitch_keycenter=75 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1RelE5.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs5-s3-1RelC#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2RelD#5.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1RelE5.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2RelD#5.wav lokey=76 hikey=76 pitch_keycenter=75 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1RelE5.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s3-3RelF#5.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds5-s3-2RelD#5.wav lokey=77 hikey=77 pitch_keycenter=75 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1RelE5.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s3-3RelF#5.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2RelG5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e5-s3-1RelE5.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s3-3RelF#5.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2RelG5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3RelA5.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s3-3RelF#5.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2RelG5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3RelA5.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1RelA#5.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs5-s3-3RelF#5.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2RelG5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3RelA5.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1RelA#5.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g5-s4-2RelG5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3RelA5.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1RelA#5.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1RelC6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a5-s4-3RelA5.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1RelA#5.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1RelC6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1RelC#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as5-s4-1RelA#5.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1RelC6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1RelC#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1RelC6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1RelC#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1RelD#6.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c6-s4-1RelC6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1RelC#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1RelD#6.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1RelE6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1cs6-s4-1RelC#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1RelD#6.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1RelE6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1RelD#6.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1RelE6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2RelF#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1ds6-s4-1RelD#6.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1RelE6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2RelF#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2RelG6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1e6-s4-1RelE6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2RelF#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2RelG6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2RelA6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2RelF#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2RelG6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2RelA6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3RelA#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1fs6-s4-2RelF#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2RelG6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2RelA6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3RelA#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1g6-s4-2RelG6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2RelA6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3RelA#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1RelC7.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1a6-s4-2RelA6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3RelA#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1RelC7.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1as6-s4-3RelA#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1RelC7.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1RelC7.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t1c7-s4-1RelC7.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfout_locc1=43 fout_hicc1=58
+<region> sample=Violin/vl1t2g3-s1-2G3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2G3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2G#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2G3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2G#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2A#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2G3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2G#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2A#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2B3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2G3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2G#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2A#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2B3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2G#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2A#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2B3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2A#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2B3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2D4.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2B3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2D4.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2D#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2D4.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2D#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2D4.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2D#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2F4.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2D4.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2D#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2F4.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2F#4t.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2D#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2F4.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2F#4t.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2F4.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2F#4t.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1G#4.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3A4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2F4.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2F#4t.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1G#4.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3A4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as4-s3-3A#4.wav lokey=68 hikey=68 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2F#4t.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1G#4.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3A4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as4-s3-3A#4.wav lokey=69 hikey=69 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1B4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1G#4.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3A4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as4-s3-3A#4.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1B4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c5-s3-2C5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1G#4.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3A4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as4-s3-3A#4.wav lokey=71 hikey=71 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1B4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c5-s3-2C5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs5-s3-2C#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as4-s3-3A#4.wav lokey=72 hikey=72 pitch_keycenter=70 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1B4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c5-s3-2C5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs5-s3-2C#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1B4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c5-s3-2C5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs5-s3-2C#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds5-s3-2D#5t.wav lokey=73 hikey=73 pitch_keycenter=75 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c5-s3-2C5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs5-s3-2C#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds5-s3-2D#5t.wav lokey=74 hikey=74 pitch_keycenter=75 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e5-s3-2E5.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs5-s3-2C#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds5-s3-2D#5t.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e5-s3-2E5.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds5-s3-2D#5t.wav lokey=76 hikey=76 pitch_keycenter=75 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e5-s3-2E5.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2F#5.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds5-s3-2D#5t.wav lokey=77 hikey=77 pitch_keycenter=75 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e5-s3-2E5.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2F#5.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1G5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e5-s3-2E5.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2F#5.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1G5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1A5.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2F#5.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1G5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1A5.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1A#5.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2F#5.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1G5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1A5.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1A#5.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1G5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1A5.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1A#5.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2C6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1A5.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1A#5.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2C6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2C#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1A#5.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2C6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2C#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2C6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2C#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2D#6.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2C6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2C#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2D#6.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2E6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2C#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2D#6.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2E6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2D#6.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2E6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1F#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2D#6.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2E6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1F#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2G6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2E6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1F#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2G6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2A6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1F#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2G6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2A6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2A#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1F#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2G6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2A6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2A#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2G6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2A6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2A#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1C7.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2A6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2A#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1C7.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2A#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1C7.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1C7.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1C7.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2RelG3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2RelG3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2RelG#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2RelG3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2RelG#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2RelA#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2RelG3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2RelG#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2RelA#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2RelB3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g3-s1-2RelG3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2RelG#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2RelA#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2RelB3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs3-s1-2RelG#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2RelA#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2RelB3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as3-s1-2RelA#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2RelB3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2RelD4.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b3-s1-2RelB3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2RelD4.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2RelD#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2RelD4.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2RelD#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2RelD4.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2RelD#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2RelF4.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2d4-s1-2RelD4.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2RelD#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2RelF4.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2RelF#4.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds4-s2-2RelD#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2RelF4.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2RelF#4.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2RelF4.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2RelF#4.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1RelG#4.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3RelA4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2f4-s2-2RelF4.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2RelF#4.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1RelG#4.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3RelA4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs4-s2-2RelF#4.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1RelG#4.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3RelA4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1RelB4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1RelG#4.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3RelA4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1RelB4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2gs4-s2-1RelG#4.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a4-s2-3RelA4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1RelB4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1RelB4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2b4-s2-1RelB4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2RelF#5.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2RelF#5.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1RelG5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2RelF#5.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1RelG5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1RelA5.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2RelF#5.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1RelG5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1RelA5.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1RelA#5.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs5-s4-2RelF#5.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1RelG5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1RelA5.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1RelA#5.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g5-s4-1RelG5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1RelA5.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1RelA#5.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2RelC6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a5-s4-1RelA5.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1RelA#5.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2RelC6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2RelC#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as5-s4-1RelA#5.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2RelC6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2RelC#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2RelC6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2RelC#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2RelD#6.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c6-s4-2RelC6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2RelC#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2RelD#6.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2RelE6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2cs6-s4-2RelC#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2RelD#6.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2RelE6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2RelD#6.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2RelE6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1RelF#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2ds6-s4-2RelD#6.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2RelE6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1RelF#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2RelG6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2e6-s4-2RelE6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1RelF#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2RelG6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2RelA6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1RelF#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2RelG6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2RelA6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2RelA#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2fs6-s4-1RelF#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2RelG6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2RelA6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2RelA#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2g6-s4-2RelG6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2RelA6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2RelA#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1RelC7.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2a6-s4-2RelA6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2RelA#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1RelC7.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2as6-s4-2RelA#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1RelC7.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1RelC7.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t2c7-s4-1RelC7.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109
+<region> sample=Violin/vl1t3g3-s1-1g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2g#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2g#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2g#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2b3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2g#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2b3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2g#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2b3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2b3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s2-2d4atk.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2b3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s2-2d4atk.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1d#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s2-2d4atk.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1d#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s2-2d4atk.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1d#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-2f4rep.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s2-2d4atk.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1d#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-2f4rep.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1f#4atk.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1d#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-2f4rep.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1f#4atk.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-2f4rep.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1f#4atk.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-2g#4alt.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s2-3a4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-2f4rep.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1f#4atk.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-2g#4alt.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s2-3a4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-2a#4.wav lokey=68 hikey=68 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1f#4atk.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-2g#4alt.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s2-3a4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-2a#4.wav lokey=69 hikey=69 pitch_keycenter=70 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1b4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-2g#4alt.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s2-3a4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-2a#4.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1b4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1c5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-2g#4alt.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s2-3a4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=5 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-2a#4.wav lokey=71 hikey=71 pitch_keycenter=70 seq_length=5 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1b4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=5 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1c5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=5 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1c#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=5 seq_position=5 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-2a#4.wav lokey=72 hikey=72 pitch_keycenter=70 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1b4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1c5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1c#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1b4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1c5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1c#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2d#5atk.wav lokey=73 hikey=73 pitch_keycenter=75 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1c5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1c#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2d#5atk.wav lokey=74 hikey=74 pitch_keycenter=75 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1e5.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1c#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2d#5atk.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1e5.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2d#5atk.wav lokey=76 hikey=76 pitch_keycenter=75 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1e5.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s4-1f#5atk.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2d#5atk.wav lokey=77 hikey=77 pitch_keycenter=75 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1e5.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s4-1f#5atk.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1g5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1e5.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s4-1f#5atk.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1g5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1a5atk.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s4-1f#5atk.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1g5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1a5atk.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1a#5.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s4-1f#5atk.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1g5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1a5atk.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1a#5.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1g5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1a5atk.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1a#5.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2c6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1a5atk.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1a#5.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2c6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1c#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1a#5.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2c6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1c#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2c6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1c#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2d#6atk.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2c6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1c#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2d#6atk.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1e6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1c#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2d#6atk.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1e6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2d#6atk.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1e6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1f#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2d#6atk.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1e6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1f#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2g6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1e6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1f#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2g6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2a6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1f#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2g6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2a6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2a#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1f#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2g6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2a6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2a#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2g6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2a6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2a#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1c7atk.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2a6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2a#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1c7atk.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2a#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1c7atk.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1c7atk.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1c7atk.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2Relg#3.wav lokey=54 hikey=54 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2Relg#3.wav lokey=55 hikey=55 pitch_keycenter=56 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2Relb3.wav lokey=57 hikey=57 pitch_keycenter=59 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g3-s1-1Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2Relg#3.wav lokey=57 hikey=57 pitch_keycenter=56 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2Relb3.wav lokey=58 hikey=58 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs3-s1-2Relg#3.wav lokey=58 hikey=58 pitch_keycenter=56 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as3-s1-2Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2Relb3.wav lokey=60 hikey=60 pitch_keycenter=59 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s1-2Reld4.wav lokey=60 hikey=60 pitch_keycenter=62 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b3-s1-2Relb3.wav lokey=61 hikey=61 pitch_keycenter=59 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s1-2Reld4.wav lokey=61 hikey=61 pitch_keycenter=62 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1Reld#4.wav lokey=61 hikey=61 pitch_keycenter=63 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s1-2Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1Reld#4.wav lokey=62 hikey=62 pitch_keycenter=63 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s1-2Reld4.wav lokey=63 hikey=63 pitch_keycenter=62 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-1Relf4.wav lokey=63 hikey=63 pitch_keycenter=65 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3d4-s1-2Reld4.wav lokey=64 hikey=64 pitch_keycenter=62 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1Reld#4.wav lokey=64 hikey=64 pitch_keycenter=63 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-1Relf4.wav lokey=64 hikey=64 pitch_keycenter=65 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1Relf#4.wav lokey=64 hikey=64 pitch_keycenter=66 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds4-s2-1Reld#4.wav lokey=65 hikey=65 pitch_keycenter=63 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-1Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1Relf#4.wav lokey=65 hikey=65 pitch_keycenter=66 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-1Relf4.wav lokey=66 hikey=66 pitch_keycenter=65 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-1Relg#4.wav lokey=66 hikey=66 pitch_keycenter=68 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s3-2Rela4.wav lokey=67 hikey=67 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3f4-s2-1Relf4.wav lokey=67 hikey=67 pitch_keycenter=65 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1Relf#4.wav lokey=67 hikey=67 pitch_keycenter=66 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-1Relg#4.wav lokey=67 hikey=67 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s3-2Rela4.wav lokey=68 hikey=68 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-3RelA#4.wav lokey=68 hikey=68 pitch_keycenter=70 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs4-s2-1Relf#4.wav lokey=68 hikey=68 pitch_keycenter=66 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-1Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s3-2Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-3RelA#4.wav lokey=69 hikey=69 pitch_keycenter=70 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1Relb4.wav lokey=69 hikey=69 pitch_keycenter=71 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-1Relg#4.wav lokey=69 hikey=69 pitch_keycenter=68 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s3-2Rela4.wav lokey=70 hikey=70 pitch_keycenter=69 seq_length=6 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-3RelA#4.wav lokey=70 hikey=70 pitch_keycenter=70 seq_length=6 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1Relb4.wav lokey=70 hikey=70 pitch_keycenter=71 seq_length=6 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1Relc5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=6 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-2RelC5.wav lokey=70 hikey=70 pitch_keycenter=72 seq_length=6 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3gs4-s2-1Relg#4.wav lokey=70 hikey=70 pitch_keycenter=68 seq_length=6 seq_position=6 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a4-s3-2Rela4.wav lokey=71 hikey=71 pitch_keycenter=69 seq_length=7 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-3RelA#4.wav lokey=71 hikey=71 pitch_keycenter=70 seq_length=7 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 seq_length=7 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1Relc5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=7 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-2RelC5.wav lokey=71 hikey=71 pitch_keycenter=72 seq_length=7 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1Relc#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=7 seq_position=6 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-2RelC#5.wav lokey=71 hikey=71 pitch_keycenter=73 seq_length=7 seq_position=7 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as4-s3-3RelA#4.wav lokey=72 hikey=72 pitch_keycenter=70 seq_length=6 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1Relb4.wav lokey=72 hikey=72 pitch_keycenter=71 seq_length=6 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=6 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-2RelC5.wav lokey=72 hikey=72 pitch_keycenter=72 seq_length=6 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1Relc#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=6 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-2RelC#5.wav lokey=72 hikey=72 pitch_keycenter=73 seq_length=6 seq_position=6 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3b4-s2-1Relb4.wav lokey=73 hikey=73 pitch_keycenter=71 seq_length=6 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1Relc5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=6 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-2RelC5.wav lokey=73 hikey=73 pitch_keycenter=72 seq_length=6 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=6 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-2RelC#5.wav lokey=73 hikey=73 pitch_keycenter=73 seq_length=6 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2Reld#5.wav lokey=73 hikey=73 pitch_keycenter=75 seq_length=6 seq_position=6 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-1Relc5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=7 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c5-s3-2RelC5.wav lokey=74 hikey=74 pitch_keycenter=72 seq_length=7 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1Relc#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=7 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-2RelC#5.wav lokey=74 hikey=74 pitch_keycenter=73 seq_length=7 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2Reld#5.wav lokey=74 hikey=74 pitch_keycenter=75 seq_length=7 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1Rele5.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=7 seq_position=6 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-2RelE5.wav lokey=74 hikey=74 pitch_keycenter=76 seq_length=7 seq_position=7 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-1Relc#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=5 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs5-s3-2RelC#5.wav lokey=75 hikey=75 pitch_keycenter=73 seq_length=5 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 seq_length=5 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1Rele5.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=5 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-2RelE5.wav lokey=75 hikey=75 pitch_keycenter=76 seq_length=5 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2Reld#5.wav lokey=76 hikey=76 pitch_keycenter=75 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-2RelE5.wav lokey=76 hikey=76 pitch_keycenter=76 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s3-1Relf#5.wav lokey=76 hikey=76 pitch_keycenter=78 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds5-s3-2Reld#5.wav lokey=77 hikey=77 pitch_keycenter=75 seq_length=5 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1Rele5.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=5 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-2RelE5.wav lokey=77 hikey=77 pitch_keycenter=76 seq_length=5 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s3-1Relf#5.wav lokey=77 hikey=77 pitch_keycenter=78 seq_length=5 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1Relg5.wav lokey=77 hikey=77 pitch_keycenter=79 seq_length=5 seq_position=5 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-1Rele5.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e5-s3-2RelE5.wav lokey=78 hikey=78 pitch_keycenter=76 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s3-1Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1Relg5.wav lokey=78 hikey=78 pitch_keycenter=79 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1Rela5.wav lokey=79 hikey=79 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s3-1Relf#5.wav lokey=79 hikey=79 pitch_keycenter=78 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1Relg5.wav lokey=79 hikey=79 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1Rela5.wav lokey=80 hikey=80 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1Rela#5.wav lokey=80 hikey=80 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs5-s3-1Relf#5.wav lokey=80 hikey=80 pitch_keycenter=78 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1Relg5.wav lokey=80 hikey=80 pitch_keycenter=79 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1Rela#5.wav lokey=81 hikey=81 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g5-s4-1Relg5.wav lokey=81 hikey=81 pitch_keycenter=79 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1Rela5.wav lokey=82 hikey=82 pitch_keycenter=81 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2Relc6.wav lokey=82 hikey=82 pitch_keycenter=84 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a5-s4-1Rela5.wav lokey=83 hikey=83 pitch_keycenter=81 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1Rela#5.wav lokey=83 hikey=83 pitch_keycenter=82 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2Relc6.wav lokey=83 hikey=83 pitch_keycenter=84 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1Relc#6.wav lokey=83 hikey=83 pitch_keycenter=85 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as5-s4-1Rela#5.wav lokey=84 hikey=84 pitch_keycenter=82 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1Relc#6.wav lokey=84 hikey=84 pitch_keycenter=85 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2Relc6.wav lokey=85 hikey=85 pitch_keycenter=84 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2Reld#6.wav lokey=85 hikey=85 pitch_keycenter=87 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c6-s4-2Relc6.wav lokey=86 hikey=86 pitch_keycenter=84 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1Relc#6.wav lokey=86 hikey=86 pitch_keycenter=85 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2Reld#6.wav lokey=86 hikey=86 pitch_keycenter=87 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1Rele6.wav lokey=86 hikey=86 pitch_keycenter=88 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3cs6-s4-1Relc#6.wav lokey=87 hikey=87 pitch_keycenter=85 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1Rele6.wav lokey=87 hikey=87 pitch_keycenter=88 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2Reld#6.wav lokey=88 hikey=88 pitch_keycenter=87 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1Rele6.wav lokey=88 hikey=88 pitch_keycenter=88 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1Relf#6.wav lokey=88 hikey=88 pitch_keycenter=90 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3ds6-s4-2Reld#6.wav lokey=89 hikey=89 pitch_keycenter=87 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1Rele6.wav lokey=89 hikey=89 pitch_keycenter=88 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1Relf#6.wav lokey=89 hikey=89 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2Relg6.wav lokey=89 hikey=89 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3e6-s4-1Rele6.wav lokey=90 hikey=90 pitch_keycenter=88 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1Relf#6.wav lokey=90 hikey=90 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2Relg6.wav lokey=90 hikey=90 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2Rela6.wav lokey=91 hikey=91 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1Relf#6.wav lokey=91 hikey=91 pitch_keycenter=90 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2Relg6.wav lokey=91 hikey=91 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2Rela6.wav lokey=92 hikey=92 pitch_keycenter=93 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2Rela#6.wav lokey=92 hikey=92 pitch_keycenter=94 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3fs6-s4-1Relf#6.wav lokey=92 hikey=92 pitch_keycenter=90 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2Relg6.wav lokey=92 hikey=92 pitch_keycenter=91 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2Rela6.wav lokey=93 hikey=93 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2Rela#6.wav lokey=93 hikey=93 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3g6-s4-2Relg6.wav lokey=93 hikey=93 pitch_keycenter=91 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2Rela6.wav lokey=94 hikey=94 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2Rela#6.wav lokey=94 hikey=94 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1Relc7.wav lokey=94 hikey=94 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3a6-s4-2Rela6.wav lokey=95 hikey=95 pitch_keycenter=93 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2Rela#6.wav lokey=95 hikey=95 pitch_keycenter=94 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1Relc7.wav lokey=95 hikey=95 pitch_keycenter=96 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3as6-s4-2Rela#6.wav lokey=96 hikey=96 pitch_keycenter=94 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1Relc7.wav lokey=96 hikey=96 pitch_keycenter=96 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1Relc7.wav lokey=97 hikey=97 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
+<region> sample=Violin/vl1t3c7-s4-1Relc7.wav lokey=98 hikey=98 pitch_keycenter=96 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110
