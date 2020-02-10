@@ -20,10 +20,14 @@ if [ $count -lt 5 ] ; then
 	echo "Got only $count files, check your pattern" >&2
 	exit 2
 fi
+# from pattern check where is first wildcard. Note location can't be before it
 
+noteloc=1; while [ "${patt:$noteloc:1}" != '*' ] && [ "${patt:$noteloc:1}" != '?' ];
+    do noteloc=$(($noteloc+1)) ; done
+noteloc=$(($noteloc-1))
 # Find where is note location
 
-noteloc=1; c=0; while [ $c -lt 20 ]; do noteloc=$(($noteloc+1)); c=$(sfzgen.py -n $noteloc $patt -l "kukkuu" | wc -l ); done
+c=0; while [ $c -lt 20 ]; do noteloc=$(($noteloc+1)); c=$(sfzgen.py -n $noteloc $patt -l "kukkuu" | wc -l ); done
 
 
 file=$(echo $name | sed 's/ /_/g').sfz
@@ -98,9 +102,9 @@ inlow=$(($lovel-15))
 outlow=$(($hivel-15))
 
 if [ $lovel -eq 0 ] ; then 
-	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfout_locc1=$outlow fout_hicc1=$hivel\" >> \$FILE"
+	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
 	echo
-	[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfout_locc1=$outlow fout_hicc1=$hivel\" >> \$FILE"
+	[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
 else if [ $hivel -eq 127 ] ; then 
 	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel\" >> \$FILE"
 	echo
