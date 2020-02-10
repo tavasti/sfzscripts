@@ -355,7 +355,7 @@ ampeg_decay=0.005
 
 EOF
 sfzgen.py -n 21 ContraBass/bspz1* -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
-sfzgen.py -n 21 ContraBass/bspz2* -l "volume=0 tune=0 lovel=59 hivel=88" >> $FILE
+sfzgen.py -n 19 -n 16 ContraBass/bspz2* -l "volume=0 tune=0 lovel=59 hivel=88" >> $FILE
 sfzgen.py -n 21 ContraBass/bspz3* -l "volume=0 tune=0 lovel=89 hivel=120" >> $FILE
 sfzgen.py -n 21 ContraBass/bspz4* -l "volume=0 tune=0 lovel=121 hivel=127" >> $FILE
 
