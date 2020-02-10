@@ -860,3 +860,284 @@ sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep -v Rel) -l "volume=0 tune=0 xfin_loc
 sfzgen.py -n 14 $(ls Violin/vl1tsp2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
 sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
 sfzgen.py -n 14 $(ls Violin/vl1tsp3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
+############################################################
+NAME="Viola Espressivo"
+FILE=Viola_Espressivo.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 16 Viola/vlalte1* -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 16 Viola/vlalte2* -l "volume=0 tune=0 lovel=59 hivel=92" >> $FILE
+sfzgen.py -n 13 Viola/vlaltf3* -l "volume=0 tune=0 lovel=93 hivel=127" >> $FILE
+
+
+
+
+###  --------- ###
+NAME="Viola Espressivo Mod"
+FILE=Viola_Espressivo_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 16 Viola/vlalte1* -l "volume=0 tune=0 xfout_locc1=43 fout_hicc1=58" >> $FILE
+sfzgen.py -n 16 Viola/vlalte2* -l "volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=77 xfout_hicc1=92" >> $FILE
+sfzgen.py -n 13 Viola/vlaltf3* -l "volume=0 tune=0 xfin_locc1=78 xfin_hicc1=93" >> $FILE
+
+############################################################
+NAME="Viola Pizzicato"
+FILE=Viola_Pizzicato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 Viola/vlapz1* -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 12 Viola/vlapz2* -l "volume=0 tune=0 lovel=59 hivel=90" >> $FILE
+sfzgen.py -n 12 Viola/vlapz3* -l "volume=0 tune=0 lovel=91 hivel=120" >> $FILE
+sfzgen.py -n 12 Viola/vlapz4* -l "volume=0 tune=0 lovel=121 hivel=127" >> $FILE
+
+############################################################
+NAME="Viola Spiccato"
+FILE=Viola_Spiccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 Viola/vlasp1* -l "volume=0 tune=0 lovel=0 hivel=95" >> $FILE
+sfzgen.py -n 12 Viola/vlasp2* -l "volume=0 tune=0 lovel=96 hivel=127" >> $FILE
+
+############################################################
+NAME="Viola Staccato"
+FILE=Viola_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 Viola/vlast1* -l "volume=0 tune=0 lovel=0 hivel=64" >> $FILE
+sfzgen.py -n 12 Viola/vlast2* -l "volume=0 tune=0 lovel=65 hivel=98" >> $FILE
+sfzgen.py -n 12 Viola/vlast3* -l "volume=0 tune=0 lovel=99 hivel=117" >> $FILE
+sfzgen.py -n 11 Viola/Vlama* -l "volume=0 tune=0 lovel=118 hivel=127" >> $FILE
+
+############################################################
+NAME="Viola Sustain"
+FILE=Viola_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Viola/vlaltf1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=50" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=50" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf2* | grep -v Rel) -l "volume=0 tune=0 lovel=51 hivel=80" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=51 hivel=80" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf3* | grep -v Rel) -l "volume=0 tune=0 lovel=81 hivel=109" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=81 hivel=109" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf4* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf4* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+
+
+###  --------- ###
+NAME="Viola Sustain Mod"
+FILE=Viola_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Viola/vlaltf1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=35 xfout_hicc1=50" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=35 fout_hicc1=50" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=36 xfin_hicc1=51 xfout_locc1=65 xfout_hicc1=80" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=36 xfin_hicc1=51 xfout_locc1=65 xfout_hicc1=80" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=66 xfin_hicc1=81 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf4* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 13 $(ls Viola/vlaltf4* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
+############################################################
+NAME="Viola Tremolo"
+FILE=Viola_Tremolo.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 15 $(ls Viola/vlato1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato2* | grep -v Rel) -l "volume=0 tune=0 lovel=59 hivel=94" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=59 hivel=94" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato3* | grep -v Rel) -l "volume=0 tune=0 lovel=95 hivel=127" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=95 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Viola Tremolo Mod"
+FILE=Viola_Tremolo_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 15 $(ls Viola/vlato1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=43 xfout_hicc1=58" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=43 xfout_hicc1=58" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=79 xfout_hicc1=94" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=79 xfout_hicc1=94" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=80 xfin_hicc1=95" >> $FILE
+sfzgen.py -n 15 $(ls Viola/vlato3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=80 xfin_hicc1=95" >> $FILE
+
+############################################################
+NAME="Viola Trem Sul Ponticello"
+FILE=Viola_Trem_Sul_Ponticello.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 16 $(ls Viola/vlatsp1* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp1* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=58" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp2* | grep -v Rel) -l "volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp2* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=59 hivel=109" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep -v Rel) -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Viola Trem Sul Ponticello Mod"
+FILE=Viola_Trem_Sul_Ponticello_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 16 $(ls Viola/vlatsp1* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=43 xfout_hicc1=58" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp1* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=43 xfout_hicc1=58" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp2* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=44 xfin_hicc1=59 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
