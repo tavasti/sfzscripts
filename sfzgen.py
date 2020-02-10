@@ -16,21 +16,33 @@ def GetNote(str, file):
     if m:
         return 12 + int(m.group(3)) * 12 + NOTES[m.group(1)] + SHARPS[m.group(2)]
     else:
-        print("***** No note value for string {} in file {}".format(str,file))
-        sys.exit(1)
+        return -1
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Output sfz file sample regions for selected files")
     parser.add_argument('file', type=str,nargs='+',help='Sample files')
-    parser.add_argument('-n','--noteloc', type=int, help='Note value location')
+    parser.add_argument('-n','--noteloc', type=int,nargs=1,action='append',help='Note value location')
     parser.add_argument('--line','-l',type=str,nargs=1,help='string to add each sample line')
     args = parser.parse_args()
     samples = []
     # collect sample files to list
     for f in args.file:
-        note = GetNote(f[args.noteloc:args.noteloc+4],f)
-        samples.append( dict(file = f,
-                                note = note))
+        # we can have more than one note location, loop to find correct
+        note = -1
+        missed = []
+        for n in args.noteloc:
+            nstr=f[n[0]:n[0]+4]
+            note = GetNote(nstr,f)
+            if(note >= 0):
+                samples.append( dict(file = f,
+                                    note = note))
+                break
+            else:
+                missed.append(nstr)
+        if(note < 0): # no note found
+            print("***** No note value for strings {} in file {}".format(missed,f), file=sys.stderr)
+            sys.exit(1)
+
 
     # generate
     for note in range(1,127):
