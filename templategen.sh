@@ -26,9 +26,8 @@ noteloc=1; while [ "${patt:$noteloc:1}" != '*' ] && [ "${patt:$noteloc:1}" != '?
     do noteloc=$(($noteloc+1)) ; done
 noteloc=$(($noteloc-1))
 # Find where is note location
-
-c=0; while [ $c -lt 20 ]; do noteloc=$(($noteloc+1)); c=$(sfzgen.py -n $noteloc $patt -l "kukkuu" | wc -l ); done
-
+c=0; while [ $c -lt 10 ] && [ $noteloc -lt 99 ]; do noteloc=$(($noteloc+1));c=$(sfzgen.py -i -n $noteloc $patt -l "kukkuu" 2>/dev/null | wc -l ); done
+sfzgen.py -i -n $noteloc $patt -l "kukkuu" > /dev/null
 
 file=$(echo $name | sed 's/ /_/g').sfz
 if [ $lovel -eq 0 ] ; then 

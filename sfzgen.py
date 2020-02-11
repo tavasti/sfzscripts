@@ -21,8 +21,9 @@ def GetNote(str, file):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Output sfz file sample regions for selected files")
     parser.add_argument('file', type=str,nargs='+',help='Sample files')
-    parser.add_argument('-n','--noteloc', type=int,nargs=1,action='append',help='Note value location')
+    parser.add_argument('-n','--noteloc', type=int,nargs=1,action='append',help='Note value location, can be repeated')
     parser.add_argument('--line','-l',type=str,nargs=1,help='string to add each sample line')
+    parser.add_argument('--ignore','-i',action="store_true",help="Ignore files failing note detection")
     args = parser.parse_args()
     samples = []
     # collect sample files to list
@@ -41,7 +42,8 @@ if __name__ == '__main__':
                 missed.append(nstr)
         if(note < 0): # no note found
             print("***** No note value for strings {} in file {}".format(missed,f), file=sys.stderr)
-            sys.exit(1)
+            if(args.ignore == False):
+                sys.exit(1)
 
 
     # generate
