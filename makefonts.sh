@@ -1141,3 +1141,396 @@ sfzgen.py -n 16 $(ls Viola/vlatsp2* | grep Rel) -l "trigger=release volume=0 tun
 sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
 sfzgen.py -n 16 $(ls Viola/vlatsp3* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
 
+############################################################
+NAME="Trumpets Double Tongue"
+FILE=Trumpets_Double_Tongue.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 -n14 Brass/t2taP* -l "volume=0 tune=0 lovel=0 hivel=64" >> $FILE
+sfzgen.py -n13 -n15 Brass/t2taMF* -l "volume=0 tune=0 lovel=65 hivel=101" >> $FILE
+sfzgen.py -n12 -n14 Brass/t2taF* -l "volume=0 tune=0 lovel=102 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Double Tongue Mod"
+FILE=Trumpets_Double_Tongue_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 -n14 Brass/t2taP* -l "volume=0 tune=0 xfout_locc1=49 xfout_hicc1=64" >> $FILE
+sfzgen.py -n13 -n15 Brass/t2taMF* -l "volume=0 tune=0 xfin_locc1=50 xfin_hicc1=65 xfout_locc1=86 xfout_hicc1=101" >> $FILE
+sfzgen.py -n12 -n14 Brass/t2taF* -l "volume=0 tune=0 xfin_locc1=87 xfin_hicc1=102" >> $FILE
+
+############################################################
+NAME="Trumpets Flutter Tongue"
+FILE=Trumpets_Flutter_Tongue.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t3fltP* -l "volume=0 tune=0 lovel=0 hivel=86" >> $FILE
+sfzgen.py -n 13 Brass/t3fltF* -l "volume=0 tune=0 lovel=87 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Flutter Tongue Mod"
+FILE=Trumpets_Flutter_Tongue_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t3fltP* -l "volume=0 tune=0 xfout_locc1=71 xfout_hicc1=86" >> $FILE
+sfzgen.py -n 13 Brass/t3fltF* -l "volume=0 tune=0 xfin_locc1=72 xfin_hicc1=87" >> $FILE
+
+############################################################
+NAME="Trumpets Marcato"
+FILE=Trumpets_Marcato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t1legP* -l "volume=0 tune=0 lovel=0 hivel=61" >> $FILE
+sfzgen.py -n 14 Brass/t2legMF* -l "volume=0 tune=0 lovel=62 hivel=86" >> $FILE
+sfzgen.py -n 14 Brass/t1marMF* -l "volume=0 tune=0 lovel=87 hivel=108" >> $FILE
+sfzgen.py -n 15 Brass/t1marFFF* -l "volume=0 tune=0 lovel=109 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Marcato Mod"
+FILE=Trumpets_Marcato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t1legP* -l "volume=0 tune=0 xfout_locc1=46 xfout_hicc1=61" >> $FILE
+sfzgen.py -n 14 Brass/t2legMF* -l "volume=0 tune=0 xfin_locc1=47 xfin_hicc1=62 xfout_locc1=71 xfout_hicc1=86" >> $FILE
+sfzgen.py -n 14 Brass/t1marMF* -l "volume=0 tune=0 xfin_locc1=72 xfin_hicc1=87 xfout_locc1=93 xfout_hicc1=108" >> $FILE
+sfzgen.py -n 15 Brass/t1marFFF* -l "volume=0 tune=0 xfin_locc1=94 xfin_hicc1=109" >> $FILE
+
+############################################################
+NAME="Trumpets Mute Staccato"
+FILE=Trumpets_Mute_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t3stmP* -l "volume=0 tune=0 lovel=0 hivel=65" >> $FILE
+sfzgen.py -n 14 Brass/t3stmMF* -l "volume=0 tune=0 lovel=66 hivel=100" >> $FILE
+sfzgen.py -n 14 Brass/t2stmFF* -l "volume=0 tune=0 lovel=101 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Mute Staccato Mod"
+FILE=Trumpets_Mute_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t3stmP* -l "volume=0 tune=0 xfout_locc1=50 xfout_hicc1=65" >> $FILE
+sfzgen.py -n 14 Brass/t3stmMF* -l "volume=0 tune=0 xfin_locc1=51 xfin_hicc1=66 xfout_locc1=85 xfout_hicc1=100" >> $FILE
+sfzgen.py -n 14 Brass/t2stmFF* -l "volume=0 tune=0 xfin_locc1=86 xfin_hicc1=101" >> $FILE
+
+
+############################################################
+NAME="Trumpets Mute Sustain"
+FILE=Trumpets_Mute_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/t3mutP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=67" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=67" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t3mutMF* | grep -v Rel) -l "volume=0 tune=0 lovel=68 hivel=106" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t3mutMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=68 hivel=106" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutF* | grep -v Rel) -l "volume=0 tune=0 lovel=107 hivel=127" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=107 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Trumpets Mute Sustain Mod"
+FILE=Trumpets_Mute_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/t3mutP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=52 xfout_hicc1=67" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=52 xfout_hicc1=67" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t3mutMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=53 xfin_hicc1=68 xfout_locc1=91 xfout_hicc1=106" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t3mutMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=53 xfin_hicc1=68 xfout_locc1=91 xfout_hicc1=106" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=92 xfin_hicc1=107" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t3mutF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=92 xfin_hicc1=107" >> $FILE
+
+############################################################
+NAME="Trumpets Sforzando"
+FILE=Trumpets_Sforzando.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 Brass/t3sfz* -l "volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Sforzando Mod"
+FILE=Trumpets_Sforzando_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 12 Brass/t3sfz* -l "volume=0 tune=0" >> $FILE
+
+
+############################################################
+NAME="Trumpets Sustain"
+FILE=Trumpets_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/t1legP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=60" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=60" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t2legMF* | grep -v Rel) -l "volume=0 tune=0 lovel=61 hivel=93" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t2legMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=61 hivel=93" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legF-* | grep -v Rel) -l "volume=0 tune=0 lovel=94 hivel=114" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=94 hivel=114" >> $FILE
+sfzgen.py -n 15 $(ls Brass/t2legFFF* | grep -v Rel) -l "volume=0 tune=0 lovel=115 hivel=127" >> $FILE
+sfzgen.py -n 15 $(ls Brass/t2legFFF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=115 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Trumpets Sustain Mod"
+FILE=Trumpets_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/t1legP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t2legMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=78 xfout_hicc1=93" >> $FILE
+sfzgen.py -n 14 $(ls Brass/t2legMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=78 xfout_hicc1=93" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=79 xfin_hicc1=94 xfout_locc1=99 xfout_hicc1=114" >> $FILE
+sfzgen.py -n 13 $(ls Brass/t1legF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=79 xfin_hicc1=94 xfout_locc1=99 xfout_hicc1=114" >> $FILE
+sfzgen.py -n 15 $(ls Brass/t2legFFF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE
+sfzgen.py -n 15 $(ls Brass/t2legFFF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE
+
+############################################################
+NAME="Trumpets Staccato"
+FILE=Trumpets_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t2stcP* -l "volume=0 tune=0 lovel=0 hivel=60" >> $FILE
+sfzgen.py -n 14 Brass/t2stcMF* -l "volume=0 tune=0 lovel=61 hivel=85" >> $FILE
+sfzgen.py -n 13 Brass/t2stcF-* -l "volume=0 tune=0 lovel=86 hivel=109" >> $FILE
+sfzgen.py -n 15 Brass/t2stcFFF-* -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Trumpets Staccato Mod"
+FILE=Trumpets_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/t2stcP* -l "volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60" >> $FILE
+sfzgen.py -n 14 Brass/t2stcMF* -l "volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=70 xfout_hicc1=85" >> $FILE
+sfzgen.py -n 13 Brass/t2stcF-* -l "volume=0 tune=0 xfin_locc1=71 xfin_hicc1=86 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 15 Brass/t2stcFFF-* -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
