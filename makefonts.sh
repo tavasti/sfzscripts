@@ -2342,3 +2342,199 @@ sfzgen.py -n 13 $(ls Brass/b?legF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc
 sfzgen.py -n 13 $(ls Brass/b?legF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88 xfout_locc1=96 xfout_hicc1=111" >> $FILE
 sfzgen.py -n 15 $(ls Brass/b?legFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=97 xfin_hicc1=112" >> $FILE
 sfzgen.py -n 15 $(ls Brass/b?legFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=97 xfin_hicc1=112" >> $FILE
+
+############################################################
+NAME="Tuba Marcato"
+FILE=Tuba_Marcato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/tbcmar* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+sfzgen.py -n 13 $(ls Brass/tbcmar* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Tuba Marcato Mod"
+FILE=Tuba_Marcato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 $(ls Brass/tbcmar* | grep -v Rel) -l "volume=0 tune=0" >> $FILE
+sfzgen.py -n 13 $(ls Brass/tbcmar* | grep Rel) -l "trigger=release volume=0" >> $FILE
+
+
+############################################################
+NAME="Tuba Sforzando"
+FILE=Tuba_Sforzando.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/tbcsfz* -l "volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Tuba Sforzando Mod"
+FILE=Tuba_Sforzando_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 13 Brass/tbcsfz* -l "volume=0 tune=0" >> $FILE
+
+############################################################
+NAME="Tuba Staccato"
+FILE=Tuba_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 14 Brass/tbcstcP* -l "volume=0 tune=0 lovel=0 hivel=70" >> $FILE
+sfzgen.py -n 15 Brass/tbcstcMF* -l "volume=0 tune=0 lovel=71 hivel=90" >> $FILE
+sfzgen.py -n 14 Brass/tbcstcF-* -l "volume=0 tune=0 lovel=91 hivel=109" >> $FILE
+sfzgen.py -n 16 Brass/tbcstcFFF* -l "volume=0 tune=0 lovel=110 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Tuba Staccato Mod"
+FILE=Tuba_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 14 Brass/tbcstcP* -l "volume=0 tune=0 xfout_locc1=55 xfout_hicc1=70" >> $FILE
+sfzgen.py -n 15 Brass/tbcstcMF* -l "volume=0 tune=0 xfin_locc1=56 xfin_hicc1=71 xfout_locc1=75 xfout_hicc1=90" >> $FILE
+sfzgen.py -n 14 Brass/tbcstcF-* -l "volume=0 tune=0 xfin_locc1=76 xfin_hicc1=91 xfout_locc1=94 xfout_hicc1=109" >> $FILE
+sfzgen.py -n 16 Brass/tbcstcFFF* -l "volume=0 tune=0 xfin_locc1=95 xfin_hicc1=110" >> $FILE
+
+############################################################
+NAME="Tuba Sustain"
+FILE=Tuba_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 14 $(ls Brass/tbclegP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=68" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=68" >> $FILE
+sfzgen.py -n 15 $(ls Brass/tbclegMF* | grep -v Rel) -l "volume=0 tune=0 lovel=69 hivel=95" >> $FILE
+sfzgen.py -n 15 $(ls Brass/tbclegMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=69 hivel=95" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegF-* | grep -v Rel) -l "volume=0 tune=0 lovel=96 hivel=115" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=96 hivel=115" >> $FILE
+sfzgen.py -n 16 $(ls Brass/tbclegFFF-* | grep -v Rel) -l "volume=0 tune=0 lovel=116 hivel=127" >> $FILE
+sfzgen.py -n 16 $(ls Brass/tbclegFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=116 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Tuba Sustain Mod"
+FILE=Tuba_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n 14 $(ls Brass/tbclegP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=53 xfout_hicc1=68" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=53 xfout_hicc1=68" >> $FILE
+sfzgen.py -n 15 $(ls Brass/tbclegMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=54 xfin_hicc1=69 xfout_locc1=80 xfout_hicc1=95" >> $FILE
+sfzgen.py -n 15 $(ls Brass/tbclegMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=54 xfin_hicc1=69 xfout_locc1=80 xfout_hicc1=95" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=81 xfin_hicc1=96 xfout_locc1=100 xfout_hicc1=115" >> $FILE
+sfzgen.py -n 14 $(ls Brass/tbclegF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=81 xfin_hicc1=96 xfout_locc1=100 xfout_hicc1=115" >> $FILE
+sfzgen.py -n 16 $(ls Brass/tbclegFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=101 xfin_hicc1=116" >> $FILE
+sfzgen.py -n 16 $(ls Brass/tbclegFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=101 xfin_hicc1=116" >> $FILE
