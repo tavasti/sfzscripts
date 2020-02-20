@@ -61,9 +61,8 @@ else
 	FILES2="\$(ls $patt | grep Rel)"
 fi
 
-echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 lovel=$lovel hivel=$hivel\" >> \$FILE"
-echo
-[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 lovel=$lovel hivel=$hivel\" >> \$FILE"
+echo "sfzgen.py -n$noteloc $FILES -l \"volume=0 tune=0 lovel=$lovel hivel=$hivel\" >> \$FILE"
+[ "$FILES2" ] && echo "sfzgen.py -n$noteloc $FILES2 -l \"trigger=release volume=0 tune=0 lovel=$lovel hivel=$hivel\" >> \$FILE"
 cat <<- ENDOF
 
 
@@ -101,17 +100,14 @@ inlow=$(($lovel-15))
 outlow=$(($hivel-15))
 
 if [ $lovel -eq 0 ] ; then 
-	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
-	echo
-	[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
+	echo "sfzgen.py -n$noteloc $FILES -l \"volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
+	[ "$FILES2" ] && echo "sfzgen.py -n$noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
 else if [ $hivel -eq 127 ] ; then 
-	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel\" >> \$FILE"
-	echo
+	echo "sfzgen.py -n$noteloc $FILES -l \"volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel\" >> \$FILE"
 	[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel\" >> \$FILE"
      else
-	echo "sfzgen.py -n $noteloc $FILES -l \"volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
-	echo
-	[ "$FILES2" ] && echo "sfzgen.py -n $noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
+	echo "sfzgen.py -n$noteloc $FILES -l \"volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
+	[ "$FILES2" ] && echo "sfzgen.py -n$noteloc $FILES2 -l \"trigger=release volume=0 tune=0 xfin_locc1=$inlow xfin_hicc1=$lovel xfout_locc1=$outlow xfout_hicc1=$hivel\" >> \$FILE"
      fi
 fi
 

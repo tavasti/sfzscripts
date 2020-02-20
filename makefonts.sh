@@ -201,6 +201,39 @@ sfzgen.py -n 15  $(ls Cello/cltsp1* | grep Rel) -l "trigger=release volume=0 tun
 sfzgen.py -n 15  $(ls Cello/cltsp2* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=41 xfin_hicc1=61 xfout_locc1=90 xfout_hicc1=109" >> $FILE
 sfzgen.py -n 15  $(ls Cello/cltsp3* | grep  Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=91 xfin_hicc1=110" >> $FILE
 
+NAME="Cello Staccato Stretched"
+FILE=Cello_Staccato_Stretch.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+// Bow direction with cc22
+// cc22 below 42, both directions
+// 43-85 up bow
+// 86-127 down bow
+label_cc22=Bow Direction
+label_cc73=Attack
+label_cc72=Release
+set_cc22=0
+set_cc73=0
+set_cc72=25
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+EOF
+sfzgen.py -s -n 11 Cello/clst1* -l "volume=0 tune=0 lovel=0 hivel=64 hicc22=42" >> $FILE
+sfzgen.py -s -n 11 Cello/clst2* -l "volume=0 tune=0 lovel=65 hivel=98 hicc22=42" >> $FILE
+sfzgen.py -s -n 11 Cello/clst3* -l "volume=0 tune=0 lovel=99 hivel=117 hicc22=42" >> $FILE
+sfzgen.py -s -n 10 Cello/clma* -l "volume=0 tune=0 lovel=118 hivel=127" >> $FILE
+sfzgen.py -s -n 11 Cello/clst1*u-s* -l "volume=0 tune=0 lovel=0 hivel=64 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 11 Cello/clst2*u-s* -l "volume=0 tune=0 lovel=65 hivel=98 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 11 Cello/clst3*u-s* -l "volume=0 tune=0 lovel=99 hivel=117 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 11 Cello/clst1*d-s* -l "volume=0 tune=0 lovel=0 hivel=64 locc22=86" >> $FILE
+sfzgen.py -s -n 11 Cello/clst2*d-s* -l "volume=0 tune=0 lovel=65 hivel=98 locc22=86" >> $FILE
+sfzgen.py -s -n 11 Cello/clst3*d-s* -l "volume=0 tune=0 lovel=99 hivel=117 locc22=86" >> $FILE
+
 
 
 NAME="Cello Staccato"
@@ -390,6 +423,40 @@ sfzgen.py -n 16 ContraBass/bssp2* -l "volume=0 tune=0 lovel=96 hivel=127 locc22=
 
 sfzgen.py -n 16 ContraBass/bssp1* -l "volume=0 tune=0 lovel=0 hivel=95 locc22=86" >> $FILE
 sfzgen.py -n 16 ContraBass/bssp2* -l "volume=0 tune=0 lovel=96 hivel=127 locc22=86" >> $FILE
+
+
+NAME='Contra Bass Staccato Stretch'
+FILE=ContraBass_Staccato_Stretch.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+// Bow direction with cc22
+// cc22 below 42, both directions
+// 43-85 up bow
+// 86-127 down bow
+label_cc22=Bow Direction
+label_cc73=Attack
+label_cc72=Release
+set_cc22=0
+set_cc73=0
+set_cc72=25
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+EOF
+sfzgen.py -s -n 16 ContraBass/bsst1* -l "volume=0 tune=0 lovel=0 hivel=65 hicc22=42" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst2* -l "volume=0 tune=0 lovel=66 hivel=98 hicc22=42" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst3* -l "volume=0 tune=0 lovel=99 hivel=117 hicc22=42" >> $FILE
+sfzgen.py -s -n 15 ContraBass/bsma* -l "volume=0 tune=0 lovel=118 hivel=127" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst1* -l "volume=0 tune=0 lovel=0 hivel=65 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst2* -l "volume=0 tune=0 lovel=66 hivel=98 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst3* -l "volume=0 tune=0 lovel=99 hivel=117 locc22=43 hicc22=85" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst1* -l "volume=0 tune=0 lovel=0 hivel=65 locc22=86" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst2* -l "volume=0 tune=0 lovel=66 hivel=98 locc22=86" >> $FILE
+sfzgen.py -s -n 16 ContraBass/bsst3* -l "volume=0 tune=0 lovel=99 hivel=117 locc22=86" >> $FILE
 
 NAME='Contra Bass Staccato'
 FILE=ContraBass_Staccato.sfz
@@ -2754,3 +2821,98 @@ sfzgen.py -n 13 $(ls Brass/t1legF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc
 sfzgen.py -n 13 $(ls Brass/t1legF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=79 xfin_hicc1=94 xfout_locc1=99 xfout_hicc1=114" >> $FILE
 sfzgen.py -n 15 -n18 $(ls Brass/t1legFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE
 sfzgen.py -n 15 -n18 $(ls Brass/t1legFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE
+
+############################################################
+NAME="Solo French Horn Marcato"
+FILE=Solo_French_Horn_Marcato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n14 $(ls Brass/shrnmrc* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+sfzgen.py -n14 $(ls Brass/shrnmrc* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Solo French Horn Marcato Mod"
+FILE=Solo_French_Horn_Marcato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n14 $(ls Brass/shrnmrc* | grep -v Rel) -l "volume=0 tune=0" >> $FILE
+sfzgen.py -n14 $(ls Brass/shrnmrc* | grep Rel) -l "trigger=release volume=0 tune=0 " >> $FILE
+
+############################################################
+NAME="Solo French Horn Staccato"
+FILE=Solo_French_Horn_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/shstcP* -l "volume=0 tune=0 lovel=0 hivel=63" >> $FILE
+sfzgen.py -n14 Brass/shstcMF* -l "volume=0 tune=0 lovel=64 hivel=89" >> $FILE
+sfzgen.py -n13 Brass/shstcF-* -l "volume=0 tune=0 lovel=90 hivel=114" >> $FILE
+sfzgen.py -n15 Brass/shstcFFF-* -l "volume=0 tune=0 lovel=115 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Solo French Horn Staccato Mod"
+FILE=Solo_French_Horn_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/shstcP* -l "volume=0 tune=0 xfout_locc1=48 xfout_hicc1=63" >> $FILE
+sfzgen.py -n14 Brass/shstcMF* -l "volume=0 tune=0 xfin_locc1=49 xfin_hicc1=64 xfout_locc1=74 xfout_hicc1=89" >> $FILE
+sfzgen.py -n13 Brass/shstcF-* -l "volume=0 tune=0 xfin_locc1=75 xfin_hicc1=90 xfout_locc1=99 xfout_hicc1=114" >> $FILE
+sfzgen.py -n15 Brass/shstcFFF-* -l "volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE

@@ -24,6 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('-n','--noteloc', type=int,nargs=1,action='append',help='Note value location, can be repeated')
     parser.add_argument('--line','-l',type=str,nargs=1,help='string to add each sample line')
     parser.add_argument('--ignore','-i',action="store_true",help="Ignore files failing note detection")
+    parser.add_argument('--stretch','-s',action="store_true",help="Use whole mini note range regardless of distance from original sample")
     args = parser.parse_args()
     samples = []
     # collect sample files to list
@@ -47,16 +48,28 @@ if __name__ == '__main__':
 
 
     # generate
+    generated = 0
     for note in range(1,127):
         cs = []
+        is_higher=False
         # collect valid samples
         for c in samples:
             if (c['note'] <= note+2 and c['note'] >= note-2):
                 cs.append(c)
+            if (c['note'] > note+2):
+                is_higher=True
         seq=1
         for s in cs:
-            print("<region> sample={file} lokey={note} hikey={note} pitch_keycenter={orgnote} seq_length={seqlen} seq_position={seq} {line}".format(file=s['file'],note=note,orgnote=s['note'],seq=seq,seqlen=len(cs),line=args.line[0]))
+            if(args.stretch and generated == 0): # lowest note, start from zero
+                print("<region> sample={file} lokey=0 hikey={note} pitch_keycenter={orgnote} seq_length={seqlen} seq_position={seq} {line}".format(file=s['file'],note=note,orgnote=s['note'],seq=seq,seqlen=len(cs),line=args.line[0]))
+            elif(args.stretch and is_higher == False): #highest note
+                print("<region> sample={file} lokey={note} hikey=127 pitch_keycenter={orgnote} seq_length={seqlen} seq_position={seq} {line}".format(file=s['file'],note=note,orgnote=s['note'],seq=seq,seqlen=len(cs),line=args.line[0]))
+            else:
+                print("<region> sample={file} lokey={note} hikey={note} pitch_keycenter={orgnote} seq_length={seqlen} seq_position={seq} {line}".format(file=s['file'],note=note,orgnote=s['note'],seq=seq,seqlen=len(cs),line=args.line[0]))
             seq += 1
+            if(seq > len(cs)): #this note handled
+                generated += 1
+
 
 
 
