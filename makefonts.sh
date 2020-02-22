@@ -2916,3 +2916,59 @@ sfzgen.py -n13 Brass/shstcP* -l "volume=0 tune=0 xfout_locc1=48 xfout_hicc1=63" 
 sfzgen.py -n14 Brass/shstcMF* -l "volume=0 tune=0 xfin_locc1=49 xfin_hicc1=64 xfout_locc1=74 xfout_hicc1=89" >> $FILE
 sfzgen.py -n13 Brass/shstcF-* -l "volume=0 tune=0 xfin_locc1=75 xfin_hicc1=90 xfout_locc1=99 xfout_hicc1=114" >> $FILE
 sfzgen.py -n15 Brass/shstcFFF-* -l "volume=0 tune=0 xfin_locc1=100 xfin_hicc1=115" >> $FILE
+
+############################################################
+NAME="Solo French Horn Sustain"
+FILE=Solo_French_Horn_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/shlegP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=69" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=69" >> $FILE
+sfzgen.py -n14 $(ls Brass/shlegMF* | grep -v Rel) -l "volume=0 tune=0 lovel=70 hivel=100" >> $FILE
+sfzgen.py -n14 $(ls Brass/shlegMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=70 hivel=100" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegF-* | grep -v Rel) -l "volume=0 tune=0 lovel=101 hivel=120" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=101 hivel=120" >> $FILE
+sfzgen.py -n15 $(ls Brass/shlegFFF-* | grep -v Rel) -l "volume=0 tune=0 lovel=121 hivel=127" >> $FILE
+sfzgen.py -n15 $(ls Brass/shlegFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=121 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo French Horn Sustain Mod"
+FILE=Solo_French_Horn_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/shlegP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=54 xfout_hicc1=69" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=54 xfout_hicc1=69" >> $FILE
+sfzgen.py -n14 $(ls Brass/shlegMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=55 xfin_hicc1=70 xfout_locc1=85 xfout_hicc1=100" >> $FILE
+sfzgen.py -n14 $(ls Brass/shlegMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=55 xfin_hicc1=70 xfout_locc1=85 xfout_hicc1=100" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=86 xfin_hicc1=101 xfout_locc1=105 xfout_hicc1=120" >> $FILE
+sfzgen.py -n13 $(ls Brass/shlegF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=86 xfin_hicc1=101 xfout_locc1=105 xfout_hicc1=120" >> $FILE
+sfzgen.py -n15 $(ls Brass/shlegFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=106 xfin_hicc1=121" >> $FILE
+sfzgen.py -n 15 $(ls Brass/shlegFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=106 xfin_hicc1=121" >> $FILE
