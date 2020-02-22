@@ -1,0 +1,760 @@
+// Solo Bass Trombone Sustain
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+<region> sample=Brass/b1legP-a#1-1-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-c#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-c#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-c#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-c#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-e2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-c#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-e2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-e2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-f#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-e2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-f#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-e2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-f#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-a2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-f#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-a2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-f#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-a2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-a2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-3-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=5 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-a2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=5 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-c#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=5 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=5 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-3-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=5 seq_position=5 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-c#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-3-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-3-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-c#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=5 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=5 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-3-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=5 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=5 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=5 seq_position=5 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-c#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-3-c4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-3-c4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-3-c4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-3-c4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-3-c4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-Rela#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-Relc#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#1-1-Rela#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-Relc#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-Relc#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c2-1-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-Rele2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#2-1-Relc#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-Relf#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#2-2-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-Rele2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-Relf#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e2-2-Rele2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-Relf#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-Rela2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-Relf#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-Rela2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#2-4-Relf#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-Rela2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g2-2-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-Rela2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a2-3-Rela2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-Relc#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#2-3-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-Reld#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-Relc#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c3-2-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-Reld#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c#3-1-Relc#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-Reld#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-Reld#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-Relf#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-d#3-3-Reld#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-Relf#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-e3-3-Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-Relf#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-Relf#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-f#3-2-Relf#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-g3-3-Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-1-Relc4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a3-1-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-1-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-a#3-1-Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-1-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-1-Relc4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legP-c4-1-Relc4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=0 hivel=65
+<region> sample=Brass/b1legMF-a#1-1-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-c#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-c#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-c#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-c#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-e2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-c#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-e2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-e2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-f#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-e2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-f#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-e2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-f#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-a2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-f#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-a2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-f#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-a2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-a2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-a2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-c#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-c#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-2-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-c#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=5 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=5 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=5 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-2-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=5 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=5 seq_position=5 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-c#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-2-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-2-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=5 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-2-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=5 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=5 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=5 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=5 seq_position=5 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-c4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-c4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-c4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-c4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-Rela#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-Relc#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#1-1-Rela#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-Relc#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-Relc#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c2-3-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-Rele2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#2-1-Relc#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-Relf#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#2-1-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-Rele2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-Relf#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e2-2-Rele2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-Relf#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-Rela2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-Relf#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-Rela2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#2-1-Relf#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-Rela2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g2-2-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-Rela2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a2-3-Rela2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-Relc#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#2-3-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-Reld#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-Relc#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c3-3-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-Reld#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c#3-1-Relc#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-Reld#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-Reld#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-Relf#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-d#3-1-Reld#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-Relf#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-e3-1-Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-Relf#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-Relf#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-f#3-2-Relf#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-g3-4-Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-Relc4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a3-3-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-a#3-3-Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-Relc4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legMF-c4-1-Relc4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=66 hivel=87
+<region> sample=Brass/b1legF-a#1-3-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-c#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-c#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-c#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-5-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-c#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-5-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-e2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-c#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-5-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-e2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-5-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-e2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-f#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-5-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-e2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-f#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-e2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-f#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-a2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-3-a2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-f#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-a2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-3-a2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-f#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-a2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-3-a2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-a2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-3-a2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-a2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-3-a2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-c#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-c#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-3-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-c#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-3-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-c#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-3-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-3-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-2-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=6 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-3-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=6 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=6 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=6 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-2-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=6 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=6 seq_position=6 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-2-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=4 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=4 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-2-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=5 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=5 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=5 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-2-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=5 seq_position=4 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=5 seq_position=5 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-c4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-c4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-c4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-c4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-Rela#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-Relc#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#1-3-Rela#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-Relc#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-Relc#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c2-1-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-Rele2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#2-1-Relc#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-Relf#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#2-4-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-Rele2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-Relf#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e2-2-Rele2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-Relf#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-Rela2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-Relf#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-Rela2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#2-3-Relf#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-Rela2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g2-1-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-Rela2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a2-1-Rela2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-Relc#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#2-1-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-Reld#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-Relc#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c3-1-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-Reld#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c#3-1-Relc#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-Reld#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-Reld#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-Relf#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-d#3-2-Reld#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-Relf#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-e3-3-Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-Relf#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-Relf#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-f#3-1-Relf#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-g3-3-Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-Relc4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a3-3-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-a#3-1-Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-Relc4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legF-c4-1-Relc4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=88 hivel=111
+<region> sample=Brass/b1legFFF-a#1-4-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-c2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-a#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-c#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-c2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-a#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-c#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-c2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-c#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-c2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-d#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-c#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-c2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-d#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-e2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-c#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-d#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-e2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-d#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-e2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-f#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-d#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-e2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-f#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-g2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-e2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-f#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-g2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-a2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-f#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-g2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-a#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-a2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-f#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-g2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-a2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-g2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-a2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-c3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-a#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-a2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-c3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-c#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-a#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-c3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-c#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-c3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-d#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-c3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-c#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-d#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-e3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-c#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-d#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-e3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-d#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-e3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-f#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-d#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-e3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-g3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-e3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-g3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-a3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-f#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-g3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-a#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-a3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-f#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-g3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-a3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-g3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-a3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-c4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-a#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-a3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-c4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-a#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-c4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-c4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-c4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-Relc2.wav lokey=34 hikey=34 pitch_keycenter=36 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-Rela#1.wav lokey=35 hikey=35 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-Relc#2.wav lokey=35 hikey=35 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-Relc2.wav lokey=35 hikey=35 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#1-4-Rela#1.wav lokey=36 hikey=36 pitch_keycenter=34 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-Relc#2.wav lokey=36 hikey=36 pitch_keycenter=37 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-Relc2.wav lokey=37 hikey=37 pitch_keycenter=36 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-Reld#2.wav lokey=37 hikey=37 pitch_keycenter=39 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-Relc#2.wav lokey=38 hikey=38 pitch_keycenter=37 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c2-3-Relc2.wav lokey=38 hikey=38 pitch_keycenter=36 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-Reld#2.wav lokey=38 hikey=38 pitch_keycenter=39 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-Rele2.wav lokey=38 hikey=38 pitch_keycenter=40 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#2-2-Relc#2.wav lokey=39 hikey=39 pitch_keycenter=37 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=39 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=39 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-Relf#2.wav lokey=40 hikey=40 pitch_keycenter=42 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#2-3-Reld#2.wav lokey=41 hikey=41 pitch_keycenter=39 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-Rele2.wav lokey=41 hikey=41 pitch_keycenter=40 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-Relf#2.wav lokey=41 hikey=41 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-Relg2.wav lokey=41 hikey=41 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e2-3-Rele2.wav lokey=42 hikey=42 pitch_keycenter=40 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-Relf#2.wav lokey=42 hikey=42 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-Rela2.wav lokey=43 hikey=43 pitch_keycenter=45 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-Relf#2.wav lokey=43 hikey=43 pitch_keycenter=42 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-Rela#2.wav lokey=44 hikey=44 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-Rela2.wav lokey=44 hikey=44 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#2-1-Relf#2.wav lokey=44 hikey=44 pitch_keycenter=42 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-Rela2.wav lokey=45 hikey=45 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g2-3-Relg2.wav lokey=45 hikey=45 pitch_keycenter=43 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-Rela2.wav lokey=46 hikey=46 pitch_keycenter=45 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-Relc3.wav lokey=46 hikey=46 pitch_keycenter=48 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-Rela#2.wav lokey=47 hikey=47 pitch_keycenter=46 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a2-2-Rela2.wav lokey=47 hikey=47 pitch_keycenter=45 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-Relc3.wav lokey=47 hikey=47 pitch_keycenter=48 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-Relc#3.wav lokey=47 hikey=47 pitch_keycenter=49 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#2-1-Rela#2.wav lokey=48 hikey=48 pitch_keycenter=46 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-Relc3.wav lokey=49 hikey=49 pitch_keycenter=48 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-Reld#3.wav lokey=49 hikey=49 pitch_keycenter=51 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c3-1-Relc3.wav lokey=50 hikey=50 pitch_keycenter=48 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-Relc#3.wav lokey=50 hikey=50 pitch_keycenter=49 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-Reld#3.wav lokey=50 hikey=50 pitch_keycenter=51 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-Rele3.wav lokey=50 hikey=50 pitch_keycenter=52 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c#3-2-Relc#3.wav lokey=51 hikey=51 pitch_keycenter=49 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-Reld#3.wav lokey=51 hikey=51 pitch_keycenter=51 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-Reld#3.wav lokey=52 hikey=52 pitch_keycenter=51 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-Relf#3.wav lokey=52 hikey=52 pitch_keycenter=54 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-d#3-2-Reld#3.wav lokey=53 hikey=53 pitch_keycenter=51 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-Rele3.wav lokey=53 hikey=53 pitch_keycenter=52 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-Relf#3.wav lokey=53 hikey=53 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-Relg3.wav lokey=53 hikey=53 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-e3-2-Rele3.wav lokey=54 hikey=54 pitch_keycenter=52 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-Relf#3.wav lokey=54 hikey=54 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-Rela3.wav lokey=55 hikey=55 pitch_keycenter=57 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-Relf#3.wav lokey=55 hikey=55 pitch_keycenter=54 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-Rela#3.wav lokey=56 hikey=56 pitch_keycenter=58 seq_length=4 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-Rela3.wav lokey=56 hikey=56 pitch_keycenter=57 seq_length=4 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-f#3-4-Relf#3.wav lokey=56 hikey=56 pitch_keycenter=54 seq_length=4 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-Relg3.wav lokey=56 hikey=56 pitch_keycenter=55 seq_length=4 seq_position=4 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-Rela3.wav lokey=57 hikey=57 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-g3-3-Relg3.wav lokey=57 hikey=57 pitch_keycenter=55 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-Rela3.wav lokey=58 hikey=58 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-Relc4.wav lokey=58 hikey=58 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-Rela#3.wav lokey=59 hikey=59 pitch_keycenter=58 seq_length=3 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a3-3-Rela3.wav lokey=59 hikey=59 pitch_keycenter=57 seq_length=3 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 seq_length=3 seq_position=3 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-a#3-3-Rela#3.wav lokey=60 hikey=60 pitch_keycenter=58 seq_length=2 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 seq_length=2 seq_position=2 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-Relc4.wav lokey=61 hikey=61 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127
+<region> sample=Brass/b1legFFF-c4-2-Relc4.wav lokey=62 hikey=62 pitch_keycenter=60 seq_length=1 seq_position=1 trigger=release volume=0 tune=0 lovel=112 hivel=127

@@ -2972,3 +2972,404 @@ sfzgen.py -n13 $(ls Brass/shlegF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1
 sfzgen.py -n13 $(ls Brass/shlegF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=86 xfin_hicc1=101 xfout_locc1=105 xfout_hicc1=120" >> $FILE
 sfzgen.py -n15 $(ls Brass/shlegFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=106 xfin_hicc1=121" >> $FILE
 sfzgen.py -n 15 $(ls Brass/shlegFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=106 xfin_hicc1=121" >> $FILE
+
+############################################################
+NAME="Solo Bass Trombone Double Tongue"
+FILE=Solo_Bass_Trombone_Double_Tongue.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 -n14 Brass/b1taP* -l "volume=0 tune=0 lovel=0 hivel=64" >> $FILE
+sfzgen.py -n13 -n15 Brass/b1taMF* -l "volume=0 tune=0 lovel=65 hivel=100" >> $FILE
+sfzgen.py -n12 -n14 Brass/b1taF* -l "volume=0 tune=0 lovel=101 hivel=127" >> $FILE
+
+
+
+###  --------- ###
+NAME="Solo Bass Trombone Double Tongue Mod"
+FILE=Solo_Bass_Trombone_Double_Tongue_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 -n14 Brass/b1taP* -l "volume=0 tune=0 xfout_locc1=49 xfout_hicc1=64" >> $FILE
+sfzgen.py -n13 -n15 Brass/b1taMF* -l "volume=0 tune=0 xfin_locc1=50 xfin_hicc1=65 xfout_locc1=85 xfout_hicc1=100" >> $FILE
+sfzgen.py -n12 -n14 Brass/b1taF* -l "volume=0 tune=0 xfin_locc1=86 xfin_hicc1=101" >> $FILE
+
+############################################################
+NAME="Solo Bass Trombone Flutter Tongue"
+FILE=Solo_Bass_Trombone_Flutter_Tongue.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n14 $(ls Brass/b1fltMF* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=99" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1fltMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=99" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1fltF* | grep -v Rel) -l "volume=0 tune=0 lovel=100 hivel=127" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1fltF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=100 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo Bass Trombone Flutter Tongue Mod"
+FILE=Solo_Bass_Trombone_Flutter_Tongue_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n14 $(ls Brass/b1fltMF* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=84 xfout_hicc1=99" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1fltMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=84 xfout_hicc1=99" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1fltF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=85 xfin_hicc1=100" >> $FILE
+sfzgen.py -n 13 $(ls Brass/b1fltF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=85 xfin_hicc1=100" >> $FILE
+
+############################################################
+NAME="Solo Bass Trombone Marcato"
+FILE=Solo_Bass_Trombone_Marcato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1legP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=60" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=60" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep -v Rel) -l "volume=0 tune=0 lovel=61 hivel=87" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=61 hivel=87" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1marF-* | grep -v Rel) -l "volume=0 tune=0 lovel=88 hivel=112" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1marF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=88 hivel=112" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1marFFF* | grep -v Rel) -l "volume=0 tune=0 lovel=113 hivel=127" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1marFFF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=113 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo Bass Trombone Marcato Mod"
+FILE=Solo_Bass_Trombone_Marcato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1legP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=45 xfout_hicc1=60" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=46 xfin_hicc1=61 xfout_locc1=72 xfout_hicc1=87" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1marF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88 xfout_locc1=97 xfout_hicc1=112" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1marF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88 xfout_locc1=97 xfout_hicc1=112" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1marFFF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=98 xfin_hicc1=113" >> $FILE
+sfzgen.py -n 15 $(ls Brass/b1marFFF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=98 xfin_hicc1=113" >> $FILE
+
+
+############################################################
+NAME="Solo Bass Trombone Mute Staccato"
+FILE=Solo_Bass_Trombone_Mute_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/b1stmP* -l "volume=0 tune=0 lovel=0 hivel=70" >> $FILE
+sfzgen.py -n14 Brass/b1stmMF* -l "volume=0 tune=0 lovel=71 hivel=110" >> $FILE
+sfzgen.py -n13 Brass/b1stmF* -l "volume=0 tune=0 lovel=111 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Solo Bass Trombone Mute Staccato Mod"
+FILE=Solo_Bass_Trombone_Mute_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/b1stmP* -l "volume=0 tune=0 xfout_locc1=55 xfout_hicc1=70" >> $FILE
+sfzgen.py -n14 Brass/b1stmMF* -l "volume=0 tune=0 xfin_locc1=56 xfin_hicc1=71 xfout_locc1=95 xfout_hicc1=110" >> $FILE
+sfzgen.py -n13 Brass/b1stmF* -l "volume=0 tune=0 xfin_locc1=96 xfin_hicc1=111" >> $FILE
+
+
+############################################################
+NAME="Solo Bass Trombone Mute Sustain"
+FILE=Solo_Bass_Trombone_Mute_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1mutP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=74" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=74" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutF-* | grep -v Rel) -l "volume=0 tune=0 lovel=75 hivel=105" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=75 hivel=105" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1mutFFF-* | grep -v Rel) -l "volume=0 tune=0 lovel=106 hivel=127" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1mutFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=106 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo Bass Trombone Mute Sustain Mod"
+FILE=Solo_Bass_Trombone_Mute_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1mutP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=59 xfout_hicc1=74" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=59 xfout_hicc1=74" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=60 xfin_hicc1=75 xfout_locc1=90 xfout_hicc1=105" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1mutF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=60 xfin_hicc1=75 xfout_locc1=90 xfout_hicc1=105" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1mutFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=91 xfin_hicc1=106" >> $FILE
+sfzgen.py -n 15 $(ls Brass/b1mutFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=91 xfin_hicc1=106" >> $FILE
+
+
+############################################################
+NAME="Solo Bass Trombone Sforzando"
+FILE=Solo_Bass_Trombone_Sforzando.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 Brass/b1sfz* -l "volume=0 tune=0 lovel=0 hivel=127" >> $FILE
+
+
+###  --------- ###
+NAME="Solo Bass Trombone Sforzando Mod"
+FILE=Solo_Bass_Trombone_Sforzando_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n12 Brass/b1sfz* -l "volume=0 tune=0 xfout_locc1=112 xfout_hicc1=127" >> $FILE
+
+############################################################
+NAME="Solo Bass Trombone Staccato"
+FILE=Solo_Bass_Trombone_Staccato.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/b1stcP* -l "volume=0 tune=0 lovel=0 hivel=64" >> $FILE
+sfzgen.py -n14 Brass/b1stcMF* -l "volume=0 tune=0 lovel=65 hivel=89" >> $FILE
+sfzgen.py -n13 Brass/b1stcF-* -l "volume=0 tune=0 lovel=90 hivel=110" >> $FILE
+sfzgen.py -n15 Brass/b1stcFFF-* -l "volume=0 tune=0 lovel=111 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo Bass Trombone Staccato Mod"
+FILE=Solo_Bass_Trombone_Staccato_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 Brass/b1stcP* -l "volume=0 tune=0 xfout_locc1=49 xfout_hicc1=64" >> $FILE
+sfzgen.py -n14 Brass/b1stcMF* -l "volume=0 tune=0 xfin_locc1=50 xfin_hicc1=65 xfout_locc1=74 xfout_hicc1=89" >> $FILE
+sfzgen.py -n13 Brass/b1stcF-* -l "volume=0 tune=0 xfin_locc1=75 xfin_hicc1=90 xfout_locc1=95 xfout_hicc1=110" >> $FILE
+sfzgen.py -n15 Brass/b1stcFFF-* -l "volume=0 tune=0 xfin_locc1=96 xfin_hicc1=111" >> $FILE
+
+############################################################
+NAME="Solo Bass Trombone Sustain"
+FILE=Solo_Bass_Trombone_Sustain.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1legP* | grep -v Rel) -l "volume=0 tune=0 lovel=0 hivel=65" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legP* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=0 hivel=65" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep -v Rel) -l "volume=0 tune=0 lovel=66 hivel=87" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=66 hivel=87" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legF-* | grep -v Rel) -l "volume=0 tune=0 lovel=88 hivel=111" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=88 hivel=111" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1legFFF-* | grep -v Rel) -l "volume=0 tune=0 lovel=112 hivel=127" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1legFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 lovel=112 hivel=127" >> $FILE
+
+###  --------- ###
+NAME="Solo Bass Trombone Sustain Mod"
+FILE=Solo_Bass_Trombone_Sustain_Mod.sfz
+echo $NAME
+cat << EOF > $FILE
+// $NAME
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=2
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+EOF
+
+sfzgen.py -n13 $(ls Brass/b1legP* | grep -v Rel) -l "volume=0 tune=0 xfout_locc1=50 xfout_hicc1=65" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legP* | grep Rel) -l "trigger=release volume=0 tune=0 xfout_locc1=50 xfout_hicc1=65" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=51 xfin_hicc1=66 xfout_locc1=72 xfout_hicc1=87" >> $FILE
+sfzgen.py -n14 $(ls Brass/b1legMF* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=51 xfin_hicc1=66 xfout_locc1=72 xfout_hicc1=87" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88 xfout_locc1=96 xfout_hicc1=111" >> $FILE
+sfzgen.py -n13 $(ls Brass/b1legF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=73 xfin_hicc1=88 xfout_locc1=96 xfout_hicc1=111" >> $FILE
+sfzgen.py -n15 $(ls Brass/b1legFFF-* | grep -v Rel) -l "volume=0 tune=0 xfin_locc1=97 xfin_hicc1=112" >> $FILE
+sfzgen.py -n 15 $(ls Brass/b1legFFF-* | grep Rel) -l "trigger=release volume=0 tune=0 xfin_locc1=97 xfin_hicc1=112" >> $FILE
