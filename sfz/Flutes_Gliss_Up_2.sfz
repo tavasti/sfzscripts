@@ -1,0 +1,37 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=Flute/fltc2glsu1d4-1-d4 1.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1d#4-1-d#4 1.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f4-2-f4 1.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f4-2-f4 1.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f#4-2-f#4 1.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1g#4-2-g#4 1.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1g#4-2-g#4 1.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1a4-1-a4 1.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1b4-1-b4 1.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1b4-1-b4 1.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1c5-1-c5 1.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1d5-1-d5 1.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1d5-1-d5 1.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1d#5-1-d#5 1.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f5-6-f5 1.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f5-6-f5 1.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1f#5-7-f#5 1.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1g#5-1-g#5 1.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1g#5-1-g#5 1.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1g#5-1-g#5 1.wav lokey=81 hikey=81 pitch_keycenter=80 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1b5-6-b5gu 1.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=0 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Flute/fltc2glsu1b5-6-b5gu 1.wav lokey=84 hikey=84 pitch_keycenter=83 lovel=0 hivel=127 seq_length=1 seq_position=1 

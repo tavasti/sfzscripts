@@ -1,0 +1,207 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=EnglishHorns/ehrn2legnvP-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#3-1-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#3-1-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-g3-1-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a3-1-a3.wav lokey=56 hikey=56 pitch_keycenter=57 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a3-1-a3.wav lokey=57 hikey=57 pitch_keycenter=57 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c4-1-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c#4-1-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-d#4-1-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#4-1-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#4-1-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a4-1-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a4-1-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a#4-1-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c5-1-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c5-1-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-c#5-1-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-d#5-1-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-d#5-1-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-e5-1-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#5-1-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-f#5-1-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-g5-1-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a5-1-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a5-1-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a#5-1-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a#5-1-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#3-1-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#3-1-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-g3-1-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-g3-2-g3.wav lokey=56 hikey=56 pitch_keycenter=55 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a#3-1-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c4-2-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c#4-1-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-d#4-1-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#4-1-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#4-1-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a4-1-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a4-1-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a#4-1-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c5-1-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c5-2-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-c#5-1-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-d#5-1-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-d#5-2-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-e5-1-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#5-1-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-g5-1-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-g5-2-g5.wav lokey=80 hikey=80 pitch_keycenter=79 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a5-1-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a5-2-a5.wav lokey=82 hikey=82 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvMF-a#5-1-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-e3-2-e3.wav lokey=53 hikey=53 pitch_keycenter=52 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-f#3-1-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-g3-1-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a3-1-a3.wav lokey=56 hikey=56 pitch_keycenter=57 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a3-1-a3.wav lokey=57 hikey=57 pitch_keycenter=57 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-c4-1-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-c#4-1-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-d#4-1-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-e4-2-e4.wav lokey=65 hikey=65 pitch_keycenter=64 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-f#4-1-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-g4-2-g4.wav lokey=68 hikey=68 pitch_keycenter=67 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a4-1-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a#4-1-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a#4-2-a#4.wav lokey=71 hikey=71 pitch_keycenter=70 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-c5--1-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-c#5-1-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-d#5-1-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-d#5-1-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-e5-1-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-f#5-1-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-f#5-1-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-g5-1-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a5-1-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a5-2-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a#5-1-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvF-a#5-2-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-e3-1Rel-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#3-1Rel-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#3-1Rel-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-g3-1Rel-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a3-1Rel-a3.wav lokey=56 hikey=56 pitch_keycenter=57 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a3-1Rel-a3.wav lokey=57 hikey=57 pitch_keycenter=57 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a#3-1Rel-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c4-1Rel-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c4-1Rel-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c#4-1Rel-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-d#4-1Rel-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-d#4-1Rel-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-e4-1Rel-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#4-1Rel-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#4-1Rel-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-g4-1Rel-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a4-1Rel-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a4-1Rel-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a#4-1Rel-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c5-1Rel-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c5-1Rel-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-c#5-1Rel-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-d#5-1Rel-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-d#5-1Rel-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-e5-1Rel-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#5-1Rel-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-f#5-1Rel-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-g5-1Rel-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a5-1Rel-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a5-1Rel-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvP-a#5-1Rel-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=EnglishHorns/ehrn2legnvP-a#5-1-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-e3-1Rel-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-f#3-1Rel-f#3.wav lokey=53 hikey=53 pitch_keycenter=54 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-f#3-1Rel-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-g3-1Rel-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-g3-2Rel-g3.wav lokey=56 hikey=56 pitch_keycenter=55 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a#3-1Rel-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a#3-1Rel-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a#3-1Rel-a#3.wav lokey=59 hikey=59 pitch_keycenter=58 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-c4-2Rel-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-c#4-1Rel-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-d#4-1Rel-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-d#4-1Rel-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-e4-1Rel-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-f#4-1Rel-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-f#4-1Rel-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-g4-1Rel-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a4-1Rel-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a4-1Rel-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a#4-1Rel-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-c5-1Rel-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-c5-2Rel-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-c#5-1Rel-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-d#5-1Rel-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-d#5-2Rel-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-e5-1Rel-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-e5-2Rel-e5.wav lokey=77 hikey=77 pitch_keycenter=76 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-f#5-1Rel-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-g5-1Rel-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-g5-2Rel-g5.wav lokey=80 hikey=80 pitch_keycenter=79 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a5-1Rel-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a5-2Rel-a5.wav lokey=82 hikey=82 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvMF-a#5-1Rel-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-e3-1Rel-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-e3-2Rel-e3.wav lokey=53 hikey=53 pitch_keycenter=52 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-f#3-1Rel-f#3.wav lokey=54 hikey=54 pitch_keycenter=54 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-g3-1Rel-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a3-1Rel-a3.wav lokey=56 hikey=56 pitch_keycenter=57 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a3-1Rel-a3.wav lokey=57 hikey=57 pitch_keycenter=57 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a#3-1Rel-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-c4-1Rel-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-c4-1Rel-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-c#4-1Rel-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-d#4-1Rel-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-d#4-1Rel-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-e4-1Rel-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-e4-2Rel-e4.wav lokey=65 hikey=65 pitch_keycenter=64 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-f#4-1Rel-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-g4-1Rel-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-g4-2Rel-g4.wav lokey=68 hikey=68 pitch_keycenter=67 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a4-1Rel-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a#4-1Rel-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a#4-2Rel-a#4.wav lokey=71 hikey=71 pitch_keycenter=70 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-c5--1Rel-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-c#5-1Rel-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-d#5-1Rel-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-d#5-1Rel-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-e5-1Rel-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-f#5-1Rel-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-f#5-1Rel-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-g5-1Rel-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a5-1Rel-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a5-2Rel-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a#5-1Rel-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=EnglishHorns/ehrn2legnvF-a#5-2Rel-a#5.wav lokey=88 hikey=88 pitch_keycenter=82 lovel=111 hivel=127 seq_length=1 seq_position=1 

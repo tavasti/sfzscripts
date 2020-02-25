@@ -1,0 +1,225 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=Oboe/obo2legvP-a#3-4-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a#3-4-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c4-4-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c4-5-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c#4-3-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#4-1-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#4-3-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-f#4-3-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-f#4-4-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a4-2-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a4-4-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a#4-3-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c5-3-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c5-4-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c#5-1-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#5-1-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#5-3-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e5-4-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-f#5-1-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-g5-3-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a5-1-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a5-3-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-a#5-1-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c6-1-c6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c6-3-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-c#6-2-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#6-2-d#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-d#6-3-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e6-2-e6.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e6-2-e6.wav lokey=89 hikey=89 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e6-2-e6.wav lokey=90 hikey=90 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvP-e6-2-e6.wav lokey=91 hikey=91 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a#3-3-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a#3-3-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c4-3-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c4-4-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c#4-3-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#4-2-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#4-4-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e4-3-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-f#4-2-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-f#4-2-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-g4-3-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a4-1-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a4-1-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a#4-2-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c5-1-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c5-3-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c#5-3-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#5-1-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#5-3-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e5-4-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-f#5-1-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-g5-7-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a5-1-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a5-3-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-a#5-3-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c6-3-c6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c6-3-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-c#6-1-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#6-1-d#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-d#6-4-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e6-2-e6.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e6-2-e6.wav lokey=89 hikey=89 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e6-2-e6.wav lokey=90 hikey=90 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvMF-e6-2-e6.wav lokey=91 hikey=91 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a#3-5-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a#3-5-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c4-1-c4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c4-4-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c#4-2-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#4-3-d#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-f#4-2-f#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-f#4-3-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a4-3-a4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a4-2-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a#4-3-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c5-3-c5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c5-3-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c#5-5-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#5-3-d#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#5-1-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-e5-3-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-f#5-3-f#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-f#5-3-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-g5-2-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a5-2-a5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a5-4-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-a#5-4-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c6-5-c6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c6-3-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-c#6-4-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-3-d#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-1-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-3-d#6.wav lokey=88 hikey=88 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-3-d#6.wav lokey=89 hikey=89 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-3-d#6.wav lokey=90 hikey=90 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Oboe/obo2legvF-d#6-3-d#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a#3-4-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a#3-4-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c4-4-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c4-5-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c#4-3-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#4-1-Reld#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#4-3-Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e4-1-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-f#4-3-Relf#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-f#4-4-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-g4-1-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a4-2-Rela4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a4-4-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a#4-3-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c5-3-Relc5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c5-4-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c#5-1-Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#5-1-Reld#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#5-3-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e5-4-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-f#5-1-Relf#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-f#5-2-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-g5-3-Relg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a5-3-Rela5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a5-3-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-a#5-1-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c6-1-Relc6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c6-3-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-c#6-2-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#6-2-Reld#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-d#6-3-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e6-2-Rele6.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e6-2-Rele6.wav lokey=89 hikey=89 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e6-2-Rele6.wav lokey=90 hikey=90 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvP-e6-2-Rele6.wav lokey=91 hikey=91 pitch_keycenter=88 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a#3-3-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a#3-3-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c4-3-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c4-4-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c#4-3-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#4-2-Reld#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#4-4-Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e4-3-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-f#4-2-Relf#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-f#4-2-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-g4-3-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a4-1-Rela4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a4-1-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a#4-2-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c5-1-Relc5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c5-1-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c#5-3-Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#5-1-Reld#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#5-3-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e5-4-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-f#5-1-Relf#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-f#5-2-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-g5-7-Relg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a5-1-Rela5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a5-3-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-a#5-3-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c6-3-Relc6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c6-3-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-c#6-1-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#6-1-Reld#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-d#6-4-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e6-2-Rele6.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e6-2-Rele6.wav lokey=89 hikey=89 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e6-2-Rele6.wav lokey=90 hikey=90 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvMF-e6-2-Rele6.wav lokey=91 hikey=91 pitch_keycenter=88 lovel=73 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a#3-5-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a#3-5-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c4-1-Relc4.wav lokey=59 hikey=59 pitch_keycenter=60 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c4-4-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c#4-2-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#4-3-Reld#4.wav lokey=62 hikey=62 pitch_keycenter=63 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#4-1-Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-e4-1-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-f#4-2-Relf#4.wav lokey=65 hikey=65 pitch_keycenter=66 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-f#4-3-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-g4-1-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a4-3-Rela4.wav lokey=68 hikey=68 pitch_keycenter=69 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a4-2-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a#4-3-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c5-3-Relc5.wav lokey=71 hikey=71 pitch_keycenter=72 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c5-3-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c#5-5-Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#5-3-Reld#5.wav lokey=74 hikey=74 pitch_keycenter=75 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#5-1-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-e5-3-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-f#5-3-Relf#5.wav lokey=77 hikey=77 pitch_keycenter=78 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-f#5-3-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-g5-2-Relg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a5-2-Rela5.wav lokey=80 hikey=80 pitch_keycenter=81 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a5-2-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-a#5-4-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c6-5-Relc6.wav lokey=83 hikey=83 pitch_keycenter=84 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c6-3-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-c#6-4-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-3-Reld#6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-1-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-3-Reld#6.wav lokey=88 hikey=88 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-3-Reld#6.wav lokey=89 hikey=89 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-3-Reld#6.wav lokey=90 hikey=90 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Oboe/obo2legvF-d#6-3-Reld#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 

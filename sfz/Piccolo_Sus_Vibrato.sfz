@@ -1,0 +1,143 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=SoloPiccolo/picclegvMP-d5-2-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-e5-1-e5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-e5-1-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f5-1-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g#5-2-g#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g#5-2-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-a5-1-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-b5-2-b5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-b5-2-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-c6-1-c6r.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-d6-1-d6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-d6-2-d6r.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-d#6-2-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f6-2-f6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f6-2-f6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f#6-3-f#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g#6-1-g#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-a6-1-a6r.wav lokey=92 hikey=92 pitch_keycenter=93 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-a6-2-a6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-b6-1-b6.wav lokey=94 hikey=94 pitch_keycenter=95 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-b6-1-b6.wav lokey=95 hikey=95 pitch_keycenter=95 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-c7-1-c7.wav lokey=96 hikey=96 pitch_keycenter=96 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-d7-1-d7.wav lokey=97 hikey=97 pitch_keycenter=98 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-d7-1-d7.wav lokey=98 hikey=98 pitch_keycenter=98 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-e7-2-e7.wav lokey=99 hikey=99 pitch_keycenter=100 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-e7-2-e7.wav lokey=100 hikey=100 pitch_keycenter=100 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-f7-1-f7.wav lokey=101 hikey=101 pitch_keycenter=101 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g7-2-g7.wav lokey=102 hikey=102 pitch_keycenter=103 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g#7-2-g#7.wav lokey=103 hikey=103 pitch_keycenter=104 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-g#7-3-g#7r.wav lokey=104 hikey=104 pitch_keycenter=104 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvMP-a7-1-a7r.wav lokey=112 hikey=112 pitch_keycenter=105 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d5-4-d5 1.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e5-1-e5 1.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e5-1-e5 1.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f5-2-f5 1.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g5-2-g5 1.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g5-2-g5 1.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#5-1-g#5 1.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#5-2-a#5 1.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#5-2-a#5 1.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-b5-3-b5 1.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#6-1-c#6 1.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#6-1-c#6 1.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d6-2-d6 1.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e6-2-e6 1.wav lokey=87 hikey=87 pitch_keycenter=88 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e6-2-e6 1.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f6-2-f6 1.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g6-1-g6 1.wav lokey=90 hikey=90 pitch_keycenter=91 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g6-1-g6 1.wav lokey=91 hikey=91 pitch_keycenter=91 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#6-1-g#6 1.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#6-3-a#6 1.wav lokey=93 hikey=93 pitch_keycenter=94 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#6-3-a#6 1.wav lokey=94 hikey=94 pitch_keycenter=94 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-b6-1-b6 1.wav lokey=95 hikey=95 pitch_keycenter=95 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#7-1-c#7 1.wav lokey=96 hikey=96 pitch_keycenter=97 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#7-1-c#7 1.wav lokey=97 hikey=97 pitch_keycenter=97 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d7-2-d7 1.wav lokey=98 hikey=98 pitch_keycenter=98 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e7-1-e7 1.wav lokey=99 hikey=99 pitch_keycenter=100 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e7-1-e7 1.wav lokey=100 hikey=100 pitch_keycenter=100 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f7-2-f7 1.wav lokey=101 hikey=101 pitch_keycenter=101 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g7-1-g7 1.wav lokey=102 hikey=102 pitch_keycenter=103 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g7-1-g7 1.wav lokey=103 hikey=103 pitch_keycenter=103 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#7-2-g#7 1.wav lokey=104 hikey=104 pitch_keycenter=105 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a7-2-a7 1.wav lokey=112 hikey=112 pitch_keycenter=106 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d5-2-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-e5-1-Rele5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-e5-1-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f5-1-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f#5-2-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#5-2-Relg#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#5-2-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-a5-1-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-b5-2-Relb5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-b5-2-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-c6-1-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d6-2-Reld6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d6-2-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d#6-2-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f6-2-Relf6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f6-2-Relf6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f#6-3-Relf#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#6-1-Relg#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#6-1-Relg#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-a6-1-Rela6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-b6-1-Relb6.wav lokey=94 hikey=94 pitch_keycenter=95 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-b6-1-Relb6.wav lokey=95 hikey=95 pitch_keycenter=95 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-c7-1-Relc7.wav lokey=96 hikey=96 pitch_keycenter=96 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d7-1-Reld7.wav lokey=97 hikey=97 pitch_keycenter=98 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-d7-1-Reld7.wav lokey=98 hikey=98 pitch_keycenter=98 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-e7-2-Rele7.wav lokey=99 hikey=99 pitch_keycenter=100 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-e7-2-Rele7.wav lokey=100 hikey=100 pitch_keycenter=100 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-f7-1-Relf7.wav lokey=101 hikey=101 pitch_keycenter=101 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g7-2-Relg7.wav lokey=102 hikey=102 pitch_keycenter=103 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#7-3-Relg#7.wav lokey=103 hikey=103 pitch_keycenter=104 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-g#7-3-Relg#7.wav lokey=104 hikey=104 pitch_keycenter=104 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloPiccolo/picclegvMP-a7-1-Rela7.wav lokey=112 hikey=112 pitch_keycenter=105 lovel=0 hivel=104 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d5-4-d5 1.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e5-1-e5 1.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e5-1-e5 1.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f5-2-f5 1.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g5-2-g5 1.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g5-2-g5 1.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#5-1-g#5 1.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#5-2-a#5 1.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#5-2-a#5 1.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-b5-3-b5 1.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#6-1-c#6 1.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#6-1-c#6 1.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d6-2-d6 1.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e6-2-e6 1.wav lokey=87 hikey=87 pitch_keycenter=88 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e6-2-e6 1.wav lokey=88 hikey=88 pitch_keycenter=88 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f6-2-f6 1.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g6-1-g6 1.wav lokey=90 hikey=90 pitch_keycenter=91 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g6-1-g6 1.wav lokey=91 hikey=91 pitch_keycenter=91 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#6-1-g#6 1.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#6-3-a#6 1.wav lokey=93 hikey=93 pitch_keycenter=94 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a#6-3-a#6 1.wav lokey=94 hikey=94 pitch_keycenter=94 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-b6-1-b6 1.wav lokey=95 hikey=95 pitch_keycenter=95 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#7-1-c#7 1.wav lokey=96 hikey=96 pitch_keycenter=97 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-c#7-1-c#7 1.wav lokey=97 hikey=97 pitch_keycenter=97 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-d7-2-d7 1.wav lokey=98 hikey=98 pitch_keycenter=98 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e7-1-e7 1.wav lokey=99 hikey=99 pitch_keycenter=100 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-e7-1-e7 1.wav lokey=100 hikey=100 pitch_keycenter=100 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-f7-2-f7 1.wav lokey=101 hikey=101 pitch_keycenter=101 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g7-1-g7 1.wav lokey=102 hikey=102 pitch_keycenter=103 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g7-1-g7 1.wav lokey=103 hikey=103 pitch_keycenter=103 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-g#7-2-g#7 1.wav lokey=104 hikey=104 pitch_keycenter=104 lovel=105 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloPiccolo/picclegvF-a7-2-a7 1.wav lokey=112 hikey=112 pitch_keycenter=106 lovel=105 hivel=127 seq_length=1 seq_position=1 

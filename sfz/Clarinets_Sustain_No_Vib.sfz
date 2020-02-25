@@ -1,0 +1,243 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=Clarinet/clarb2legnvP-d3-2-d3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-f3-3-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g3-6-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g3-6-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g#3-1-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#3-3-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#3-3-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-b3-5-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#4-3-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#4-3-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-d4-2-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e4-4-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e4-4-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-f4-3-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g4-3-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g4-3-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g#4-2-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#4-3-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#4-3-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-b4-2-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#5-4-c#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#5-4-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-d5-5-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e5-3-e5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-e5-3-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-f5-2-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g5-4-g5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g5-4-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-g#5-3-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#5-1-a#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-a#5-1-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-b5-5-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#6-4-c#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-c#6-4-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-d6-5-d6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvP-d#6-6-d#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-d3-1-d3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-f3-1-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g3-2-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g3-2-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g#3-2-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#3-2-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#3-2-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-b3-2-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#4-2-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#4-2-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-d4-2-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e4-1-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-f4-5-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g4-1-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g#4-2-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#4-1-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#4-1-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-b4-2-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#5-2-c#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#5-2-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-d5-1-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e5-1-e5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-e5-1-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-f5-3-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g5-2-g5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g5-2-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-g#5-2-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#5-3-a#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-a#5-3-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-b5-2-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#6-1-c#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-c#6-1-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-d6-1-d6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvMF-d#6-5-d#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-d3-3-d3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-f3-1-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g3-1-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g3-1-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g#3-2-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#3-2-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#3-2-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-b3-4-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#4-4-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#4-4-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-d4-1-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e4-2-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e4-2-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-f4-1-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g4-2-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g4-2-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g#4-1-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#4-3-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#4-3-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-b4-1-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#5-1-c#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#5-1-c#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-d5-1-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e5-2-e5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-e5-2-e5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-f5-4-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g5-2-g5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g5-2-g5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-g#5-3-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#5-1-a#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-a#5-1-a#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-b5-3-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#6-5-c#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-c#6-5-c#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-d6-1-d6.wav lokey=86 hikey=86 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Clarinet/clarb2legnvF-d#6-3-d#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d3-1-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e3-2-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e3-2-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-f3-2-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g3-1-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g3-2-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g#3-2-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-a#3-2-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-a#3-2-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-b3-1-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-c#4-1-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-c#4-1-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d4-1-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e4-1-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e4-1-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-f4-2-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g4-1-ReRellg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g4-3-ReRellg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g#4-1-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-a#4-2-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-b4-1-Relb4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-b4-2-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-c#5-2-Relc#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d5-2-Reld5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d5-1-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e5-1-Rele5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-e5-2-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-f5-2-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g5-4-ReRellg5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g5-4-ReRellg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-g#5-1-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-a#5-3-Rela#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-a#5-4-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-b5-3-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-c#6-2-Relc#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-c#6-2-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d6-2-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMP-d#6-5-Reld#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=0 hivel=82 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-d3-4-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e3-6-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e3-6-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-f3-4-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g3-3-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g3-3-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g#3-3-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#3-3-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#3-4-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-b3-3-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#4-2-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#4-2-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-d4-2-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e4-1-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e4-2-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-f4-2-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g4-1-Relg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g4-2-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g#4-3-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#4-1-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#4-2-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-b4-1-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#5-2-Relc#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#5-2-Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-d5-2-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e5-2-Rele5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-e5-2-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-f5-2-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g5-2-ReRellg5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g5-2-ReRellg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-g#5-4-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#5-1-Rela#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-a#5-2-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-b5-2-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#6-1-Relc#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-c#6-1-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-d6-1-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvMF-d#6-3-Reld#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=83 hivel=114 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-d3-2-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e3-1-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e3-2-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-f3-2-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g3-1-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g3-1-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g#3-2-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#3-1-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#3-2-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-b3-2-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#4-1-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#4-1-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-d4-2-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e4-2-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e4-2-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-f4-3-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g4-1-Relg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g4-2-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g#4-2-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#4-2-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#4-3-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-b4-2-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#5-2-Relc#5.wav lokey=72 hikey=72 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#5-2-Relc#5.wav lokey=73 hikey=73 pitch_keycenter=73 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-d5-2-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e5-2-Rele5.wav lokey=75 hikey=75 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-e5-2-Rele5.wav lokey=76 hikey=76 pitch_keycenter=76 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-f5-1-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g5-1-Relg5.wav lokey=78 hikey=78 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g5-2-Relg5.wav lokey=79 hikey=79 pitch_keycenter=79 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-g#5-2-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#5-2-Rela#5.wav lokey=81 hikey=81 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-a#5-3-Rela#5.wav lokey=82 hikey=82 pitch_keycenter=82 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-b5-3-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#6-2-Relc#6.wav lokey=84 hikey=84 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-c#6-2-Relc#6.wav lokey=85 hikey=85 pitch_keycenter=85 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-d6-2-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=115 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Clarinet/clarb2legvF-d#6-9-Reld#6.wav lokey=91 hikey=91 pitch_keycenter=87 lovel=115 hivel=127 seq_length=1 seq_position=1 

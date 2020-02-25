@@ -1,0 +1,291 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=Bassoon/bs2legnvP-a#1-6-a#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#1-6-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#1-6-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#1-6-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-b1-1-b1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-b1-1-b1.wav lokey=36 hikey=36 pitch_keycenter=35 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#2-1-c#2.wav lokey=37 hikey=37 pitch_keycenter=38 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#2-2-c#2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-d#2-1-d#2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-d#2-1-d#2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-e2-4-e2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g2-3-g2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g2-3-g2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g#2-2-g#2.wav lokey=44 hikey=44 pitch_keycenter=44 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#2-2-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#2-2-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-b2-4-b2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#3-2-c#3.wav lokey=48 hikey=48 pitch_keycenter=49 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#3-4-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-d3-2-d3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-f3-2-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g3-1-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g3-3-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g#3-2-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#3-3-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#3-3-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-b3-1-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#4-3-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c#4-3-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-d4-3-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-e4-2-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-e4-2-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-f4-2-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g4-2-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g4-2-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-g#4-7-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#4-3-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-a#4-3-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-b4-2-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c5-2-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c5-2-c5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c5-2-c5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c5-2-c5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvP-c5-2-c5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#1-3-a#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#1-3-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#1-3-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#1-3-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-b1-3-b1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c2-2-c2.wav lokey=36 hikey=36 pitch_keycenter=36 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c#2-5-c#2.wav lokey=37 hikey=37 pitch_keycenter=37 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-d2-5-d2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e2-5-e2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e2-5-e2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-f2-3-f2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g2-3-g2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g2-3-g2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g#2-2-g#2.wav lokey=44 hikey=44 pitch_keycenter=44 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#2-4-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#2-4-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-b2-5-b2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c3-1-c3.wav lokey=48 hikey=48 pitch_keycenter=48 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c#3-6-c#3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-d3-2-d3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e3-1-e3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e3-1-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-f3-2-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g3-2-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g3-2-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g#3-1-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#3-2-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#3-2-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-b3-1-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c#4-1-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c#4-1-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-d4-2-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e4-1-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-e4-1-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-f4-3-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g4-3-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g4-3-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-g#4-3-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#4-2-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-a#4-2-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-b4-2-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c5-5-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c5-5-c5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c5-5-c5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c5-5-c5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvMF-c5-5-c5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#1-4-a#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#1-4-a#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#1-4-a#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#1-4-a#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-b1-3-b1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c2-1-c2.wav lokey=36 hikey=36 pitch_keycenter=36 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d2-4-d2.wav lokey=37 hikey=37 pitch_keycenter=38 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d2-5-d2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-e2-5-e2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-e2-5-e2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-f2-4-f2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g2-1-g2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g2-1-g2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g2-1-g2.wav lokey=44 hikey=44 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#2-1-a#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#2-1-a#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-b2-2-b2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c3-3-c3.wav lokey=48 hikey=48 pitch_keycenter=48 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d3-1-d3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d3-1-d3.wav lokey=50 hikey=50 pitch_keycenter=49 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d#3-3-d#3.wav lokey=51 hikey=51 pitch_keycenter=50 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-e3-2-e3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-f3-3-f3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g3-2-g3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g3-2-g3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g#3-1-g#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#3-1-a#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#3-1-a#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-b3-2-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c#4-2-c#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c#4-2-c#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-d4-4-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-e4-4-e4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-e4-4-e4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-f4-5-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g4-1-g4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g4-1-g4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-g#4-6-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#4-4-a#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-a#4-4-a#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-b4-3-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c5-2-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c5-2-c5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c5-2-c5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c5-2-c5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> sample=Bassoon/bs2legnvF-c5-2-c5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#1-6-Rela#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#1-6-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#1-6-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#1-6-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-b1-1-Relb1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-b1-1-Relb1.wav lokey=36 hikey=36 pitch_keycenter=35 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#2-1-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=38 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#2-2-Relc#2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-d#2-1-Reld#2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-d#2-1-Reld#2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-e2-4-Rele2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g2-3-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g2-3-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g#2-2-Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#2-2-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#2-2-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-b2-4-Relb2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#3-2-Relc#3.wav lokey=48 hikey=48 pitch_keycenter=49 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#3-2-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-d3-2-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-e3-1-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-e3-1-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-f3-2-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g3-1-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g3-1-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g#3-2-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#3-3-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#3-3-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-b3-1-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#4-3-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c#4-3-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-d4-3-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-e4-2-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-e4-2-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-f4-2-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g4-2-Relg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g4-2-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-g#4-7-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#4-3-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-a#4-3-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-b4-2-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c5-2-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c5-2-Relc5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c5-2-Relc5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c5-2-Relc5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvP-c5-2-Relc5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=0 hivel=74 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#1-3-Rela#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#1-3-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#1-3-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#1-3-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-b1-3-Relb1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c2-2-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c#2-5-Relc#2.wav lokey=37 hikey=37 pitch_keycenter=37 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-d2-5-Reld2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e2-5-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e2-5-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-f2-3-Relf2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g2-3-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g2-3-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g#2-2-Relg#2.wav lokey=44 hikey=44 pitch_keycenter=44 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#2-4-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#2-4-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-b2-5-Relb2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c3-1-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c#3-6-Relc#3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-d3-2-Reld3.wav lokey=50 hikey=50 pitch_keycenter=50 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e3-1-Rele3.wav lokey=51 hikey=51 pitch_keycenter=52 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e3-1-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-f3-2-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g3-2-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g3-2-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g#3-1-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#3-2-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#3-2-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-b3-1-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c#4-1-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c#4-1-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-d4-2-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e4-1-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-e4-1-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-f4-3-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g4-3-Relg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g4-3-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-g#4-3-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#4-2-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-a#4-2-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-b4-2-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c5-5-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c5-5-Relc5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c5-5-Relc5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c5-5-Relc5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvMF-c5-5-Relc5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=75 hivel=115 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#1-4-Rela#1.wav lokey=31 hikey=31 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#1-4-Rela#1.wav lokey=32 hikey=32 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#1-4-Rela#1.wav lokey=33 hikey=33 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#1-4-Rela#1.wav lokey=34 hikey=34 pitch_keycenter=34 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-b1-3-Relb1.wav lokey=35 hikey=35 pitch_keycenter=35 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c2-1-Relc2.wav lokey=36 hikey=36 pitch_keycenter=36 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d2-4-Reld2.wav lokey=37 hikey=37 pitch_keycenter=38 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d2-5-Reld2.wav lokey=38 hikey=38 pitch_keycenter=38 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-e2-5-Rele2.wav lokey=39 hikey=39 pitch_keycenter=40 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-e2-5-Rele2.wav lokey=40 hikey=40 pitch_keycenter=40 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-f2-4-Relf2.wav lokey=41 hikey=41 pitch_keycenter=41 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g2-1-Relg2.wav lokey=42 hikey=42 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g2-1-Relg2.wav lokey=43 hikey=43 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g2-1-Relg2.wav lokey=44 hikey=44 pitch_keycenter=43 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#2-1-Rela#2.wav lokey=45 hikey=45 pitch_keycenter=46 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#2-1-Rela#2.wav lokey=46 hikey=46 pitch_keycenter=46 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-b2-2-Relb2.wav lokey=47 hikey=47 pitch_keycenter=47 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c3-3-Relc3.wav lokey=48 hikey=48 pitch_keycenter=48 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d3-1-Reld3.wav lokey=49 hikey=49 pitch_keycenter=49 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d3-1-Reld3.wav lokey=50 hikey=50 pitch_keycenter=49 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d#3-3-Reld#3.wav lokey=51 hikey=51 pitch_keycenter=50 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-e3-2-Rele3.wav lokey=52 hikey=52 pitch_keycenter=52 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-f3-3-Relf3.wav lokey=53 hikey=53 pitch_keycenter=53 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g3-2-Relg3.wav lokey=54 hikey=54 pitch_keycenter=55 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g3-2-Relg3.wav lokey=55 hikey=55 pitch_keycenter=55 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g#3-1-Relg#3.wav lokey=56 hikey=56 pitch_keycenter=56 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#3-1-Rela#3.wav lokey=57 hikey=57 pitch_keycenter=58 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#3-1-Rela#3.wav lokey=58 hikey=58 pitch_keycenter=58 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-b3-2-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c#4-2-Relc#4.wav lokey=60 hikey=60 pitch_keycenter=61 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c#4-2-Relc#4.wav lokey=61 hikey=61 pitch_keycenter=61 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-d4-4-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-e4-4-Rele4.wav lokey=63 hikey=63 pitch_keycenter=64 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-e4-4-Rele4.wav lokey=64 hikey=64 pitch_keycenter=64 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-f4-5-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g4-1-Relg4.wav lokey=66 hikey=66 pitch_keycenter=67 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g4-1-Relg4.wav lokey=67 hikey=67 pitch_keycenter=67 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-g#4-6-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#4-4-Rela#4.wav lokey=69 hikey=69 pitch_keycenter=70 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-a#4-4-Rela#4.wav lokey=70 hikey=70 pitch_keycenter=70 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-b4-3-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c5-2-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c5-2-Relc5.wav lokey=73 hikey=73 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c5-2-Relc5.wav lokey=74 hikey=74 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c5-2-Relc5.wav lokey=75 hikey=75 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=Bassoon/bs2legnvF-c5-2-Relc5.wav lokey=76 hikey=76 pitch_keycenter=72 lovel=116 hivel=127 seq_length=1 seq_position=1 

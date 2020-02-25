@@ -1,0 +1,255 @@
+<control>
+label_cc73=Attack
+label_cc72=Release
+set_cc73=0
+set_cc72=10
+<global>
+amp_veltrack=0
+volume_oncc1=-24
+volume_curvecc1=2
+xf_cccurve=power
+ampeg_attack_oncc73=10
+ampeg_release_oncc72=10
+ampeg_decay=0.005
+
+
+<region> sample=SoloFlute/fltclegvP-b3-5-b3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b3-5-b3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b3-5-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-c4-2-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d4-2-d4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d4-3-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d4-2-d4.wav lokey=63 hikey=63 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f4-1-f4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f4-3-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f#4-2-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#4-3-g#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#4-4-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a4-2-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b4-1-b4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b4-2-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-c5-1-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d5-1-d5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d5-4-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d#5-3-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f5-2-f5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f5-3-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#5-1-g#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#5-3-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a5-3-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b5-2-b5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-b5-4-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-c6-3-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d6-2-d6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d6-3-d6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-d#6-3-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f6-2-f6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f6-3-f6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-f#6-3-f#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#6-1-g#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-g#6-3-g#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a6-2-a6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a6-2-a6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a6-2-a6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvP-a6-2-a6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b3-3-b3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b3-3-b3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b3-3-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-c4-3-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d4-2-d4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d4-3-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f4-1-f4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f4-3-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f#4-3-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#4-1-g#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#4-2-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a4-1-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b4-3-b4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b4-3-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-c5-3-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d5-2-d5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d5-3-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d#5-2-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f5-2-f5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f5-3-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f#5-2-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#5-1-g#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#5-2-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a5-1-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b5-1-b5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-b5-2-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-c6-1-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d6-1-d6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d6-2-d6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-d#6-2-d#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f6-1-f6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f6-2-f6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-f6-1-f6.wav lokey=90 hikey=90 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#6-1-g#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-g#6-2-g#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a6-1-a6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a6-1-a6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a6-1-a6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvMF-a6-1-a6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b3-2-b3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b3-2-b3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b3-2-b3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-c4-1-c4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d4-1-d4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d4-2-d4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d#4-1-d#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f4-2-f4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f4-3-f4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f#4-3-f#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#4-2-g#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#4-3-g#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a4-2-a4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b4-2-b4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b4-3-b4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-c5-3-c5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d5-1-d5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d5-3-d5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d#5-1-d#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f5-2-f5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f5-3-f5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f#5-3-f#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#5-1-g#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#5-2-g#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a5-2-a5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b5-1-b5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-b5-3-b5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-c6-1-c6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d6-1-d6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d6-3-d6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-d#6-3-d#6.wav lokey=87 hikey=87 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f6-1-f6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f6-1-f6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-f#6-2-f#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#6-1-g#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-g#6-2-g#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a6-1-a6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a6-1-a6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a6-1-a6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> sample=SoloFlute/fltclegvF-a6-1-a6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b3-5-Relb3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b3-5-Relb3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b3-5-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-c4-2-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d4-2-Reld4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d4-3-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d4-2-Reld4.wav lokey=63 hikey=63 pitch_keycenter=62 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f4-1-Relf4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f4-3-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f#4-2-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#4-3-Relg#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#4-4-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a4-2-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b4-1-Relb4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b4-2-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-c5-1-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d5-4-Reld5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d5-4-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d#5-3-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f5-2-Relf5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f5-3-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f#5-2-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#5-1-Relg#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#5-3-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a5-3-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b5-2-Relb5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-b5-4-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-c6-3-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d6-2-Reld6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d6-3-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-d#6-3-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f6-2-Relf6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f6-3-Relf6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-f#6-3-Relf#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#6-1-Relg#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-g#6-3-Relg#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a6-2-Rela6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a6-2-Rela6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a6-2-Rela6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvP-a6-2-Rela6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=0 hivel=72 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b3-3-Relb3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b3-3-Relb3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b3-3-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-c4-3-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d4-2-Reld4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d4-3-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d#4-1-Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f4-1-Relf4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f4-3-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f#4-3-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#4-1-Relg#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#4-2-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a4-1-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b4-3-Relb4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b4-3-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-c5-3-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d5-2-Reld5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d5-2-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d#5-2-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f5-3-Relf5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f5-3-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f#5-2-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#5-2-Relg#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#5-2-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a5-1-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b5-1-Relb5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-b5-2-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-c6-1-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d6-1-Reld6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d6-2-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-d#6-2-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=87 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f6-1-Relf6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f6-2-Relf6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-f6-1-Relf6.wav lokey=90 hikey=90 pitch_keycenter=89 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#6-1-Relg#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-g#6-2-Relg#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a6-1-Rela6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a6-1-Rela6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a6-1-Rela6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvMF-a6-1-Rela6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=73 hivel=110 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b3-2-Relb3.wav lokey=57 hikey=57 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b3-2-Relb3.wav lokey=58 hikey=58 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b3-2-Relb3.wav lokey=59 hikey=59 pitch_keycenter=59 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-c4-1-Relc4.wav lokey=60 hikey=60 pitch_keycenter=60 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d4-1-Reld4.wav lokey=61 hikey=61 pitch_keycenter=62 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d4-2-Reld4.wav lokey=62 hikey=62 pitch_keycenter=62 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d#4-1-Reld#4.wav lokey=63 hikey=63 pitch_keycenter=63 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f4-2-Relf4.wav lokey=64 hikey=64 pitch_keycenter=65 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f4-3-Relf4.wav lokey=65 hikey=65 pitch_keycenter=65 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f#4-3-Relf#4.wav lokey=66 hikey=66 pitch_keycenter=66 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#4-2-Relg#4.wav lokey=67 hikey=67 pitch_keycenter=68 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#4-3-Relg#4.wav lokey=68 hikey=68 pitch_keycenter=68 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a4-2-Rela4.wav lokey=69 hikey=69 pitch_keycenter=69 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b4-2-Relb4.wav lokey=70 hikey=70 pitch_keycenter=71 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b4-3-Relb4.wav lokey=71 hikey=71 pitch_keycenter=71 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-c5-3-Relc5.wav lokey=72 hikey=72 pitch_keycenter=72 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d5-1-Reld5.wav lokey=73 hikey=73 pitch_keycenter=74 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d5-3-Reld5.wav lokey=74 hikey=74 pitch_keycenter=74 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d#5-1-Reld#5.wav lokey=75 hikey=75 pitch_keycenter=75 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f5-2-Relf5.wav lokey=76 hikey=76 pitch_keycenter=77 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f5-3-Relf5.wav lokey=77 hikey=77 pitch_keycenter=77 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f#5-3-Relf#5.wav lokey=78 hikey=78 pitch_keycenter=78 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#5-1-Relg#5.wav lokey=79 hikey=79 pitch_keycenter=80 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#5-2-Relg#5.wav lokey=80 hikey=80 pitch_keycenter=80 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a5-2-Rela5.wav lokey=81 hikey=81 pitch_keycenter=81 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b5-1-Relb5.wav lokey=82 hikey=82 pitch_keycenter=83 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-b5-3-Relb5.wav lokey=83 hikey=83 pitch_keycenter=83 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-c6-1-Relc6.wav lokey=84 hikey=84 pitch_keycenter=84 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d6-1-Reld6.wav lokey=85 hikey=85 pitch_keycenter=86 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d6-3-Reld6.wav lokey=86 hikey=86 pitch_keycenter=86 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-d#6-3-Reld#6.wav lokey=87 hikey=87 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f6-1-Relf6.wav lokey=88 hikey=88 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f6-1-Relf6.wav lokey=89 hikey=89 pitch_keycenter=89 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-f#6-2-Relf#6.wav lokey=90 hikey=90 pitch_keycenter=90 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#6-1-Relg#6.wav lokey=91 hikey=91 pitch_keycenter=92 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-g#6-2-Relg#6.wav lokey=92 hikey=92 pitch_keycenter=92 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a6-1-Rela6.wav lokey=93 hikey=93 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a6-1-Rela6.wav lokey=94 hikey=94 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a6-1-Rela6.wav lokey=95 hikey=95 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
+<region> trigger=release sample=SoloFlute/fltclegvF-a6-1-Rela6.wav lokey=100 hikey=100 pitch_keycenter=93 lovel=111 hivel=127 seq_length=1 seq_position=1 
